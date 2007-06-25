@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>Turbine powered web sites</title>
+ </properties>
+
+ <body>
+
+ <section name="Turbine-Powered Web Sites">
+ <p>
+ <img src="../images/powered-by-logo.gif" alt="powered-by-logo.gif" width="112" height="32" />
+ </p>
+
+ <p>
+  Here is a list of public web sites built atop the Turbine
+  framework. This is by no means a complete listing of all
+  of the Turbine-powered web sites.  If you have a site to be listed here,
+  please post a message on the Turbine-user
+  <a href="../contact.html">mailing list</a>.
+ </p>
+
+ <table>
+   <tr>
+    <th>URL</th>
+    <th>Type</th>
+    <th>Created By</th>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.jrank.org/">www.jrank.org</a>
+    </td>
+    <td>
+      JRank is a pure Java search engine for websites.
+    </td>
+    <td>
+     <a href="http://www.jrank.org/">www.jrank.org</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.flashcan.com/">www.flashcan.com</a>
+    </td>
+    <td>
+     An interactive card making game using Turbine and Macromedia's
+     Flash5.
+    </td>
+    <td>
+     <a href="http://www.zincroe.com/">ZincRoe</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.raleighlist.org/">www.raleighlist.org</a>
+    </td>
+    <td>
+    Raleigh, North Carolina site with Real Estate, Classifieds, Jobs and Personals.
+    </td>
+    <td>
+     <a href="http://www.tonyspencer.com/">Tony Spencer</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.ana.com.mx/">Ana Auto Club</a>
+    </td>
+    <td>
+    AutoClub site
+    </td>
+    <td>
+     <a href="http://www.itweb.com.mx/">Integrated Technology</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.nequalsone.com/">www.nequalsone.com</a>
+    </td>
+    <td>
+     A web based marketing tool designed specifically for the
+     health care industry.
+    </td>
+    <td>
+     <a href="http://www.nequalsone.com/">www.nequalsone.com</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.bitblaster.com/p/s/p/template/i,Welcome.vm">Homepage Toolbox</a>
+    </td>
+    <td>
+    Weblog / Photo Album / Page Designer-CMS
+    </td>
+    <td>
+     <a href="http://www.bitblaster.com/rob/">Rob Leachman</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.firstlightassociates.co.uk/twenty47.html">24-7 Claims</a>
+    </td>
+    <td>
+    B2B marketplace to manage the work flow required for trading potential compensation claims.
+    </td>
+    <td>
+     <a href="http://www.firstlightassociates.co.uk">First Light Associates</a>
+    </td>
+   </tr>
+  </table>
+ </section>
+
+ <section name="Websites Using Turbine Technology">
+ <p>
+  The websites below make use of Turbine technologies without having built
+  their entire site around Turbine.
+ </p>
+
+  <table>
+   <tr>
+    <th>URL</th>
+    <th>Type</th>
+    <th>Created By</th>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.jxta.org/">www.jxta.org</a>
+    </td>
+    <td>
+     JXTA technology is a set of open, generalized peer-to-peer
+     protocols that allow any connected device on the network from
+     cell phone to PDA from PC to server to communicate and
+     collaborate in a peer to peer manner.
+    </td>
+    <td>
+     <a href="http://www.collab.net/">CollabNet</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.netbeans.org/">www.netbeans.org</a>
+    </td>
+    <td>
+     Developer network for Sun Microsystem's open source IDE,
+     NetBeans.
+    </td>
+    <td>
+     <a href="http://www.collab.net/">CollabNet</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.openoffice.org/">www.openoffice.org</a>
+    </td>
+    <td>
+     Developer network for Sun Microsystem's OpenOffice (previously
+     known as StarOffice).
+    </td>
+    <td>
+     <a href="http://www.collab.net/">CollabNet</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.possenet.org/">www.possenet.org</a>
+    </td>
+    <td>
+     Progress Software developer network for their Progress
+     Application Development Environment.
+    </td>
+    <td>
+     <a href="http://www.collab.net/">CollabNet</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.tigris.org/">www.tigris.org</a>
+    </td>
+    <td>
+     Open source development tool suite.
+    </td>
+    <td>
+     <a href="http://www.collab.net/">CollabNet</a>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="http://www.epmedia.at/">www.epmedia.at</a>
+    </td>
+    <td>
+     Website of an advertising agency. Turbine is used for the B2B part of the
+     site.
+    </td>
+    <td>
+     Martin&#160;Poeschl
+    </td>
+   </tr>
+  </table>
+ </section>
+
+ </body>
+</document>

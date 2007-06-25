@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+  <properties>
+    <title>Turbine Further Reading</title>
+  </properties>
+
+  <body>
+
+  <section name="Further Reading">
+
+    <subsection name="Turbine Concepts">
+      <ul>
+        <li>
+          <a href="j2ee-integration.html">Turbine With J2EE</a>
+          - A discussion of how Turbine can be used in a J2EE project.
+        </li>
+        <li>
+          <a href="pullmodel.html">Pull Model Vs. Push Model</a>
+          - How and why the view piece of an MVC framework should pull data
+          rather than a controller pushing data to the view.
+        </li>
+        <li>
+          <a href="model2+1.html">Model 2+1</a>
+          - A discussion of how Turbine follows and extends the Model-View-Controller pattern.
+        </li>
+      </ul>
+    </subsection>
+
+    <subsection name="Articles On Turbine And Related Projects">
+    <ul>
+      <!--  This is no longer available.
+      <li>
+        <a href="http://www.vsj.co.uk/articles/display.asp?id=122">High Velocity Web Application Design</a>
+        - Cranking out your next scalable web application with Turbine, the new Web Services workhorse.
+        By Sing Li.
+        <em>Published in VSJ; January 15, 2003.</em>
+      </li>
+      -->
+      <li>
+        <a href="http://www.javaworld.com/javaworld/jw-10-2002/jw-1011-maven.html">Maven Article</a>
+        - Maven ties together tools for better code management.
+        By Jeff Linwood.
+        <em>Published in JavaWorld; October 11, 2002.</em>
+      </li>
+      <li>
+        <a href="http://www.javaworld.com/javaworld/jw-12-2001/jw-1228-velocity.html">Velocity Introduction</a>
+        - Start up the Velocity Template Engine.
+        By Geir Magnusson, Jr.
+        <em>Published in JavaWorld; December 28, 2001.</em>
+      </li>
+    </ul>
+    </subsection>
+
+    <subsection name="Related Apache Projects">    
+    <ul>
+      <li>
+        <a href="http://velocity.apache.org/engine/">Velocity</a> -  A view 
+        technology comparable to JSP) that Turbine officially supports. Many 
+        Turbine developers feel Velocity is an excellent alternative
+        to JSP for web application development.
+      </li>
+      <li>
+        <a href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a> - An open source 
+        portal engine built on top of the Turbine web application framework.  Use 
+        Jetspeed to develop a ready-to-go portal solution with open technology.
+      </li>
+      <li>
+        <a href="http://logging.apache.org/log4j/docs/index.html">Log4j</a> - A standard logging
+        framework used by Turbine and many other projects.
+        No more commenting System.out.println()'s in your code!
+      </li>
+      <li>
+        <a href="http://maven.apache.org">Maven</a> - A Java 
+        project management and project comprehension tool. Maven is based on the 
+        concept of a project object model (POM) in that all the artifacts produced 
+        by Maven are a result of consulting a well defined model for your project.
+      </li>
+      <li>
+        <a href="http://db.apache.org/torque/">Torque</a> - A persistence layer. 
+        Torque includes a generator to generate all the database resources required 
+        by your application and includes a runtime environment to run the generated 
+        classes.
+      </li>
+    </ul>
+    </subsection>
+     
+    <subsection name="Viewpoints on JSP">
+    <ul>
+      <li><a href="http://wiki.apache.org/velocity/YouMakeTheDecision">You Make The Decision</a>
+       - John Stevens' article comparing Velocity to JSP.</li>
+      <li><a href="http://www.servlets.com/soapbox/problems-jsp.html">Problems with JSP</a>
+       - Jason Hunters' article discussing common issues with JSP.</li>
+    </ul>
+    </subsection>
+
+  </section>
+</body>
+</document>

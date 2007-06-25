@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2004 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+  <properties>
+    <title>Turbine 3</title>
+  </properties>
+
+  <body>
+
+  <section name="Weekly Status Report: 15 March 2002">
+     <p>
+     </p>
+   </section>
+
+  <section name="Turbine 2.2">
+     <p>
+       We are prepared for the release of Turbine 2.2 Beta 1 on Monday.
+       Eric and Martin have the new ComponentLoader working so that Torque
+       and Fulcrum are loaded in the same consistent way in Turbine 2.
+     </p>
+   </section>
+
+   <section name="Maven">
+     <p>
+       We know have all of the Turbine project working with Maven. We have
+       installers for Maven that can be found 
+       <a href="http://www.apache.org/~jvanzyl/maven/">here</a> and the
+       Turbine sites produced by Maven can be viewed
+       <a href="http://www.apache.org/~jvanzyl/tsite/">here</a>.
+     </p>
+   </section>
+
+   <section name="Turbine 3.0">
+     <p>
+       I am late with the roadmap for Turbine 3.0 as the release of Turbine
+       2.2 takes precedence but when the 2.2 Beta 1 release cycle is complete
+       I will go back to finishing off the roadmap for 3.0.
+     </p>
+   </section>
+  </body>
+</document>

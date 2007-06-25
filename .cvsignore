@@ -1,0 +1,5 @@
+docs
+build.properties
+target
+.project
+*.log*

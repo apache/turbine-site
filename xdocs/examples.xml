@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2004 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+  <properties>
+    <title>Example Applications</title>
+  </properties>
+
+<body>
+
+<section name="Example Apps">
+These are some example apps you can download to learn how to work with Turbine.
+<subsection name="Antelope">
+	<p>
+	<a href="http://zebra.tigris.org">Antelope</a> is an example app that demonstrates how
+	to use the Zebra workflow engine with Turbine.  It also demonstrates Hibernate integration,
+	Fulcrum Security, and a form processing engine similar to Intake.
+	</p>
+</subsection>
+<subsection name="OSWorkflow Example">
+	<p>
+	<a href="http://turbine.apache.org/fulcrum/fulcrum-osworkflow-example/index.html">This</a>
+	example app shows how to integrate the <a href="http://www.opensymphony.com/">OSWorkflow</a> engine
+	into Turbine.  You can click through the various screens following the progress of your workflow.	
+	</p>
+</subsection>
+
+</section>
+
+
+</body>
+
+</document>

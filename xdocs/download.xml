@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2004 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+	
+<document>
+
+  <properties>
+    <title>Downloading Turbine</title>
+  </properties>
+
+<body>
+
+<section name="Getting Started With Turbine">
+  <p>
+    Currently, the best way to get started with Turbine is to use the
+    <a href="meta/index.html">Maven Environment for Turbine Applications (M.E.T.A.)</a>.
+  </p>
+</section>
+
+<section name="Binary And Source Distributions">
+  <p>
+    If you already know how to use Turbine and simply want the latest
+    binaries or source, you can get them from the
+    <a href="http://www.apache.org/dyn/closer.cgi">apache mirror system</a>
+    in the jakarta/turbine subdirectory.
+  </p>
+</section>
+
+<section name="Getting Source snapshots">
+  <p>
+    We provide you snapshots of all the current turbine projects. These
+    are built on a daily base but are only source snapshots. There are no
+    warranties that these build or run. You can get them from 
+    <a href="http://cvs.apache.org/dist/jakarta/turbine/nightly/">nightly snapshot site</a>.
+  </p>
+</section>
+
+<section name="Getting The Development Source From Subversion">
+  <p>
+    You can check out the latest source from the Jakarta Subversion repository.
+    Information on connecting to the Jakarta repositories is found 
+    <a href="http://jakarta.apache.org/site/cvsindex.html">on the Jakarta project repository information page</a>.<br/>
+
+    </p>
+    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/jakarta/turbine/core]]></source>
+</section>
+
+<section name="Building The Source">
+  <p>
+    Be sure and read the README.txt file for instructions on how to build Turbine.
+    Turbine uses <a href="http://maven.apache.org">Maven</a> as its 
+    build system, and building is as simple as running 'maven' or 'maven jar:jar'
+    at the top of the source directory.
+  </p>
+</section>
+</body>
+</document>

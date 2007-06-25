@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2004 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+  <properties>
+    <title>Turbine 3</title>
+  </properties>
+
+  <body>
+
+  <section name="Weekly Status Report: 15 Feb 2002">
+     <p>
+       Wow, we actually did this two weeks in a row :-) At any rate, here's a little
+       run down of what's been going on this week in Turbine.
+     </p>
+   </section>
+   
+   <section name="New Committers">
+     <p>
+       James Taylor was added as a new committer this week. James has been
+       working on the Pipeline, has added some JGenerator renderers which
+       is very cool, and is generally helping out all over the place. Welcome
+       James!
+     </p>
+   </section>
+
+   <section name="Integration of the decoupled Torque in the TDK">
+     <p>
+       Martin has the decoupled Torque working with Turbine 2.x so he
+       is now working on integrating this work into the TDK. We are going
+       to officially deprecate the use of the coupled Torque, and when
+       we refer to Torque from now on we mean the decoupled Torque. The
+       Torque that exists in the 2.x tree is now officially road kill.
+     </p>
+   </section>
+   
+   <section name="New Torque Tutorial!">
+     <p>
+       Pete Kazmier has written an excellent Torque Tutorial which is
+       now available <a href="http://jakarta.apache.org/turbine/torque/tutorial.html">here</a>.
+       This will certainly help a lot of users who have had some initial difficulty 
+       in getting Torque set up and running. Thanks Pete!
+     </p>
+   </section>
+   
+   <section name="Turbine Project Build System">
+     <p>
+       Jason has been working on a build system that can be used by all
+       Turbine projects. The goal is to have a single build.xml file that
+       can be used by all the builds. This is an effort to try and simplify
+       the maintenance overhead in all our projects now that we have decoupled
+       everything. We are going to move toward builds for each component in
+       Stratum and builds for each service in Fulcrum.
+     </p>
+   </section>
+
+   <section name="Security Model">
+     <p>
+       There has been a lot of discussion on the turbine-dev list
+       about the new security model for Turbine 3.  Most recent
+       conversations have focused on what examples from JAAS could be
+       applied to Turbine Security.  Check
+       <a href="http://www.mail-archive.com/turbine-dev%40jakarta.apache.org/msg05759.html">this thread</a>
+       in the mail archive to see the details.
+     </p>
+     <p>
+       There was also some discussion about an LDAP implementation for Turbine 2.
+       See <a href="http://www.mail-archive.com/turbine-dev%40jakarta.apache.org/msg05658.html">this thread</a>
+       for details.  If that work gets completed, we will find a way
+       to include it in the Turbine 3 security model.
+     </p>
+   </section>
+
+   <section name="RunData Reworking">
+     <p>
+       The testbed is now working again in the <i>rundata_security_changes</i>
+       branch again. I'm not entirely happy with how it works yet but it's
+       getting there. Right now you can use a subclass of RunData but classes
+       the employ the use of this subclass must upcast in order to reach the
+       functionality within the subclass. I borrowed this method directly
+       from Jetspeed, but I would like to make something cleaner. I've got
+       some ideas and I'll post about them in next weeks status report.
+     </p>
+   </section>
+
+   <section name="Conversion of JCS logging to Commons Logging">
+     <p>
+       Using JCS as a test ground, James has implemented the use of
+       the Commons Logging package. We will still use log4j as our standard
+       back end logging mechanism but people who have chosen to use LogKit or Java 1.4
+       logging then they will easily be able to do so.
+     </p>
+   </section>
+   
+   <section name="JCS Documentation">
+     <p>
+       Pete Kazmier started another great documentation effort by reworking
+       the current JCS documentation into our standard xdoc format. This will
+       definitely help people understand what a kick ass cache JCS really is :-)
+     </p>
+   </section>
+   
+  </body>
+</document>

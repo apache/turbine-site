@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2004 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+  <properties>
+    <title>Turbine 3</title>
+  </properties>
+
+  <body>
+
+  <section name="Weekly Status Report: 8 March 2002">
+     <p>
+     </p>
+   </section>
+
+  <section name="Turbine 2.2">
+     <p>
+       Things are still on schedule for the release of Turbine 2.2 Beta 1
+       on the 18th of March. Eric Dobbs has volunteer to help with the
+       integration of Fulcrum into Turbine 2.2 so there will be two of
+       us working on a solution. Once this is done we can release and
+       let people give things a whirl.
+     </p>
+     <p>
+       The services code in Turbine 2.2 will be declared dead, in the
+       same fashion as Torque code in 2.2 has, so there will be a migration document
+       for those planning on moving their 2.2 services forward to
+       Fulcrum. I will also try to get a transformation descriptor
+       together for use with the transformation tool in Maven to take
+       care of the tedious changes like import statements and the like.
+     </p>
+   </section>
+
+   <section name="Progress on Maven">
+     <p>
+       We managed to work out most of the project extensibility issues in that
+       it is now easy for a project to have its specific targets coexist with
+       the maven targets that come as are part of the generated build system.
+     </p>
+     <p>
+       Pete has made a DVSL stylesheet that produces an attractive page
+       displaying the JUnit tests.
+     </p>
+     <p>
+       I've done some work on a tool that will analyse a project's existing
+       JAR file and determine dependencies on other projects. At the moment
+       I know what the invidual class dependencies are by using bytecode
+       analysis and now I have to map those class dependencies to projects
+       in order to produce an accurate project descriptor with full
+       dependencies listed.
+     </p>
+     <p>
+       I have converted the Texen Ant task into a bean so that it can be
+       used from the command line so I hope to have a command line tool that
+       will produce a comprehensive Maven build system along with
+       required project descriptor within the week.
+     </p>
+     <p>
+       I am looking to replace the XML -> Bean mapping mechanism used in
+       Maven with the Betwixt package in the Commons sandbox. Betwixt provides
+       full roundtrip mapping and it is generally more configurable. I am also
+       trying to get rid of as much code in Stratum as possible and go with
+       existing or better code so I'm going to try and get rid of the
+       homegrown mapper that I made.
+     </p>
+   </section>
+
+   <section name="Turbine 3.0">
+     <p>
+       There will be a full roadmap for Turbine 3.0 this Friday. I will try
+       and outline all the things I think are required for Turbine 3.0 to
+       be successful and all the items that need to be taken care of in
+       order to get there. I will try to make the roadmap highly detailed.
+     </p>
+   </section>
+  </body>
+</document>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<project>
+  <pomVersion>3</pomVersion>
+  <name>Turbine</name>
+  <id>turbine-site</id>
+  <currentVersion>1.0</currentVersion>
+  <organization>
+    <name>Apache Software Foundation</name>
+    <url>http://turbine.apache.org/</url>
+    <logo>/images/turbine-project.png</logo>
+  </organization>
+  <inceptionYear>2000</inceptionYear>
+  <package>org.apache.turbine</package>
+  <logo>/images/logo.gif</logo>
+  <shortDescription>A servlet based framework.</shortDescription>
+  <description>
+    Turbine is a servlet based framework that allows experienced Java developers
+    to quickly build secure web applications. Parts of Turbine can also be used
+    independently of the web portion of Turbine as well. In other words, we
+    strive to make portions of Turbine easily available for use in other
+    applications.
+  </description>
+  <url>http://turbine.apache.org/</url>
+  <issueTrackingUrl>http://issues.apache.org/jira/browse/TRB</issueTrackingUrl>
+  <siteAddress>people.apache.org</siteAddress>
+  <siteDirectory>/www/turbine.apache.org/</siteDirectory>
+
+  <repository>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/turbine/site</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/turbine/site</developerConnection>
+    <url>http://svn.apache.org/viewcvs/turbine/site/</url>
+  </repository>
+
+  <mailingLists>
+    <mailingList>
+      <name>Turbine User List</name>
+      <subscribe>user-subscribe@turbine.apache.org</subscribe>
+      <unsubscribe>user-unsubscribe@turbine.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/turbine-user/</archive>
+    </mailingList>
+    <mailingList>
+      <name>Turbine Developer List</name>
+      <subscribe>dev-subscribe@turbine.apache.org</subscribe>
+      <unsubscribe>dev-unsubscribe@turbine.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/turbine-dev/</archive>
+    </mailingList>
+    <mailingList>
+      <name>Turbine General List</name>
+      <subscribe>general-subscribe@turbine.apache.org</subscribe>
+      <unsubscribe>general-unsubscribe@turbine.apache.org</unsubscribe>
+      <archive>http://mail-archives.apache.org/mod_mbox/turbine-general/</archive>
+    </mailingList>
+  </mailingLists>
+
+  <developers>
+    <developer>
+      <name>Jeff Brekke</name>
+      <id>brekke</id>
+      <email>ekkerbj@yahoo.com</email>
+      <organization/>
+    </developer>
+    <developer>
+      <name>Fedor Karpelevitch</name>
+      <id>fedor</id>
+      <email>fedor@karpelevitch.net</email>
+      <organization/>
+    </developer>
+    <developer>
+      <name>John McNally</name>
+      <id>jmcnally</id>
+      <email>jmcnally@collab.net</email>
+      <organization>CollabNet, Inc.</organization>
+    </developer>
+    <developer>
+      <name>Martin Poeschl</name>
+      <id>mpoeschl</id>
+      <email>mpoeschl@marmot.at</email>
+      <organization>Tucana.at</organization>
+    </developer>
+    <developer>
+      <name>Daniel Rall</name>
+      <id>dlr</id>
+      <email>dlr@finemaltcoding.com</email>
+      <organization>CollabNet, Inc.</organization>
+    </developer>
+    <developer>
+      <name>Jon Scott Stevens</name>
+      <id>jon</id>
+      <email>jon@latchkey.com</email>
+      <organization>CollabNet, Inc.</organization>
+    </developer>
+    <developer>
+      <name>Quinton McCombs</name>
+      <id>quintonm</id>
+      <email>quintonm@bellsouth.net</email>
+      <organization>NequalsOne</organization>
+    </developer>
+    <developer>
+      <name>Jason van Zyl</name>
+      <id>jvanzyl</id>
+      <email>jason@zenplex.com</email>
+      <organization>Zenplex</organization>
+    </developer>
+    <developer>
+      <name>Henning P. Schmiedehausen</name>
+      <id>henning</id>
+      <email>hps@intermeta.de</email>
+      <organization>INTERMETA - Gesellschaft fuer Mehrwertdienste mbH</organization>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>2</timezone>
+    </developer>
+    <developer>
+      <name>Scott Eade</name>
+      <id>seade</id>
+      <email>seade@backstagetech.com.au</email>
+      <organization>Backstage Technologies Pty. Ltd.</organization>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>-10</timezone>
+    </developer>
+    <developer>
+      <name>J&#x00fc;rgen Hoffmann</name>
+      <id>hoffmann</id>
+      <email>jh@byteaction.de</email>
+      <organization>ByteAction GmbH</organization>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>2</timezone>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>maven</groupId>
+      <artifactId>maven-changelog-plugin</artifactId>
+      <version>1.8.2</version>
+      <type>plugin</type>
+    </dependency>
+
+    <dependency>
+      <groupId>maven</groupId>
+      <artifactId>maven-site-plugin</artifactId>
+      <version>1.6.1</version>
+      <type>plugin</type>
+    </dependency>
+
+    <dependency>
+      <groupId>maven</groupId>
+      <artifactId>maven-xdoc-plugin</artifactId>
+      <version>1.9.2</version>
+      <type>plugin</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectories></sourceDirectories>
+    <aspectSourceDirectories></aspectSourceDirectories>
+    <unitTestPatterns></unitTestPatterns>
+    <jarResources></jarResources>
+    <jars></jars>
+  </build>
+  
+  <!-- reports>
+    <report>maven-developer-activity-plugin</report>
+    <report>maven-file-activity-plugin</report>
+  </reports -->
+  <reports>
+    <report>maven-changelog-plugin</report>
+    <report>maven-license-plugin</report>
+    <report>maven-linkcheck-plugin</report>
+  </reports>
+</project>

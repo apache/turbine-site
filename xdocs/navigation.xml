@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+	
+<project name="Turbine Site"
+        href="http://turbine.apache.org">
+
+    <title>Turbine Site</title>
+
+    <body>
+    <links>
+      <item name="Turbine Home"            href="/turbine/"/>
+      <item name="Fulcrum"                 href="/fulcrum/"/>
+      <item name="META"                    href="/meta/"/>
+    </links>
+
+    <!-- menu name="Events">  
+       <item name="ApacheCon US 2005"  href="http://apachecon.com/2005/US/" alt="ApacheCon US 2005"
+             img="http://apache.org/images/ac2005us_blue_184x90.jpg" width="184" height="90"  />
+     </menu -->
+
+    <menu name="General Information">
+        <item name="Overview"              href="/index.html"/>
+        <item name="Turbine Concepts"      href="/turbine-concepts.html"/>
+        <item name="Specification"         href="/fsd.html"/>
+        <item name="Further Reading"       href="/further-reading/index.html"/>
+        <item name="News and Status"       href="/news.html"/>
+        <item name="Sites Using Turbine"   href="/common/powered.html"/>
+        <item name="Sites Related to Turbine"   href="/common/related.html"/>
+        <item name="License"               href="/common/license.html"/>
+        <item name="Download"		   href="/download.html"/>
+        <item name="Example Apps"          href="/examples.html"/>
+    </menu>
+
+    <menu name="Turbine Wiki Shortcuts">
+        <item name="Turbine Wiki Home"                href="http://wiki.apache.org/turbine/Turbine2"/>
+        <item name="Frequently Asked Questions (FAQ)" href="http://wiki.apache.org/turbine/Turbine2/FAQ"/>
+        <item name="Tutorial"                         href="http://wiki.apache.org/turbine/Turbine2/Tutorial"/>
+        <item name="User's Guide"                     href="http://wiki.apache.org/turbine/Turbine2/UsersGuide"/>
+        <item name="Development"                      href="http://wiki.apache.org/turbine/Turbine2/Development"/>
+    </menu>
+
+    <menu name="Turbine Releases">
+        <item name="Overview"        href="/turbine/index.html"/>
+        <item name="Turbine 2.3.2"   href="/turbine/turbine-2.3.2/index.html"/>
+        <item name="Turbine 2.4-M1"  href="/turbine/turbine-2.4-M1/index.html"/>
+    </menu>
+
+    <menu name="Turbine Development">
+        <item name="Overview"        href="/turbine/index.html"/>
+        <item name="Turbine 2.3"     href="/turbine/development/turbine-2.3/index.html"/>
+        <item name="Turbine 2.4"     href="/turbine/development/turbine-2.4/index.html"/>
+    </menu>
+
+    <menu name="Turbine Sub Projects">
+        <item name="Fulcrum"               href="/fulcrum/index.html"/>
+        <item name="META"                  href="/meta/index.html"/>
+    </menu>
+
+    <menu name="Closed projects">
+        <item name="Stratum"               href="/stratum/index.html"/>
+        <item name="TDK"                   href="/tdk/index.html"/>
+    </menu>
+
+    <menu name="Community">
+        <item name="Who we are"                  href="/who-we-are.html"/>
+        <item name="Contact us"                  href="/contact.html"/>
+        <item name="How to help"                 href="/how-to-help.html"/>
+        <item name="How it works"                href="/how-it-works.html"/>
+        <item name="Board reports"               href="/board-reports.html"/>
+    </menu>
+
+    <menu name="General Development Information">
+        <item name="Coding Specification"  href="/common/code-standards.html"/>
+        <item name="Developer Links"       href="/common/developer-links.html"/>
+        <item name="Improving Documentation"          href="/common/documentation.html"/>
+    </menu>
+
+    <menu name="Apache">
+        <item name="Apache Website"     href="http://www.apache.org/"/>
+        <item name="How the ASF works"  href="http://www.apache.org/foundation/how-it-works.html"/>
+        <item name="Sponsorship"        href="http://www.apache.org/foundation/sponsorship.html"/>
+        <item name="Thanks"             href="http://www.apache.org/foundation/thanks.html"/>
+    </menu>
+    </body>
+</project>

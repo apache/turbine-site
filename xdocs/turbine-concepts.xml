@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>Turbine Concepts</title>
+ </properties>
+
+<body>
+
+<section name="Turbine Concepts - Introduction">
+
+<p>Looking for a modern web application architecture for your Java
+development? Turbine is an open source server-side Java framework from
+the Apache Software Foundation. Any servlet container supporting Servlet
+Specification 2.2 or better can be used to run your Turbine
+application.</p>
+
+<p>We offer an easy-to use development environment using a <a
+href="http://maven.apache.org/">Maven</a>-based <a
+href="meta/">plugin</a> to quickly start developing Turbine
+applications.</p>
+
+<p>Of course, the biggest advantage of Turbine is that it is free, and
+all of the source code is available to you, the application
+developer.</p>
+
+<p>A quick guide to Turbine technologies:</p>
+
+<ul>
+ <li>Presentation layer - <a href="http://velocity.apache.org/engine/">Velocity</a> or JSP</li>
+ <li>Database layer - Turbine uses <a
+     href="http://db.apache.org/torque/">Torque</a>, but different OM
+     layers like <a href="http://db.apache.org/ojb/">OJB</a> or <a
+     href="http://www.hibernate.org/">Hibernate</a> are also
+     supported.</li>
+ <li>HTML Form Validation using the Turbine provided &quot;Intake&quot;-Service.</li>
+ <li>Logging - Turbine uses <a href="http://jakarta.apache.org/commons/logging/">Commons Logging</a> and supports a wide range of logging
+frameworks like <a href="http://logging.apache.org/log4j/docs/">Log4J</a>, jdk14 or simple file logging</li>
+ <li>Service based framework, using <a href="http://avalon.apache.org/">Avalon</a> compatible components in Turbine 2.4 and beyond.</li>
+</ul>
+
+
+<p>
+Applications built with Turbine are encouraged to follow the
+Model-View-Controller (MVC) architecture. In the Model-View-Controller
+design pattern, the Model is the business logic and stored data, the
+View is the user interface, and the Controller handles application
+flow and manages the Model and the Views.
+</p>
+
+<p>
+The Turbine architecture encourages developers to separate business
+logic from presentation and application flow. If you use the Turbine
+framework, your code will be much easier to maintain as a result.
+</p>
+
+</section>
+
+<section name="How does Turbine fit in with other server side Java technologies">
+
+<p>
+The Turbine framework is a normal Java application that uses servlets
+for handling web users. It is meant to be run under a servlet
+container, and you can write your own custom servlets that load
+Turbine objects and access Turbine singletons.
+</p>
+
+<p>
+Turbine's presentation layer can be used with Java Server Pages (JSP)
+or <a href="http://velocity.apache.org/engine/">Velocity</a>. Most
+Java developers working with web applications have some experience
+with JSP already. We discuss how to choose between <a
+href="http://velocity.apache.org/engine/">Velocity</a> and JSP for
+your project later on this page.
+</p>
+
+
+<p>
+Turbine can be used with Enterprise Java Beans (EJB).Turbine would be
+a client of an EJB system, just like a Swing application.  This is
+most useful if there is already a system that uses Enterprise
+Java Beans, or if parts of this system need to be distributed on
+different servers. A developer can build a new Turbine service to
+access the EJB system. Turbine does not require the use of EJB
+session or entity beans.
+</p>
+
+</section>
+
+<section name="Turbine Services">
+
+<p>
+Turbine Services are the back-end of the application framework. Each
+Turbine Service is implemented as a singleton class that can use
+Turbine's central configuration utility. These Services only have one
+state that all requesting clients share.
+</p>
+
+<p>
+Because each Service is used through an interface, Service
+implementations are pluggable. This is extremely useful if extension
+of an existing Service with new functionality is needed . All classes
+that use that built-in Service will be able to use your new Service.
+</p>
+
+<p>
+Starting with <a href="turbine-2.4/">Turbine 2.4</a>, the services are
+based on the <a href="http://avalon.apache.org/">Avalon</a> framework. An
+avalon-based component can be plugged into the Turbine framework without
+any changes.
+</p>
+
+<p>
+Turbine comes with a number of Services. These are bundled when using
+<a href="turbine-2.3/">Turbine-2.3</a> or available separately as <a
+href="http://avalon.apache.org/">Avalon</a> components from the <a
+href="fulcrum/">Fulcrum</a> project.
+</p>
+
+<p>Here is a brief overview of the some of the Services:</p>
+
+<ul>
+ <li>IntakeService - Provides web form validation and automatic
+     mapping of data to a bean. All of your input forms can be easily
+     validated, and all of the mapping of HTML form parameters to
+     setter methods on a Bean is done automatically. Intake is configured with
+     XML files.</li>
+ <li>UploadService - Manages file uploads from HTML widgets.</li>
+
+ <li>XSLTService - Transforms XML documents with XSLT
+     stylesheets. This service can cache compiled stylesheets for extra
+     performance.</li>
+
+ <li>SecurityService - Manages users and permissions for
+     Turbine. Turbine has a user, group, role, permission system which uses
+     a database layer or LDAP as its backend.</li>
+</ul>
+
+</section>
+
+<section name="Model View Controller (MVC)">
+
+<p>
+The Model View Controller (MVC) architecture allows the developer to
+separate presentation from business logic, which makes for more
+maintainable code. MVC has been used in traditional GUI programming
+for years, but most of the early web application architectures didn't
+take advantage of this separation.
+</p>
+
+<p>
+Applications that use Java servlets can mix HTML into the Java code,
+requiring a recompile of the application if there are any look and
+feel changes. Sun corrected this problem by creating Java Server Pages
+(JSP), which are similar to Microsoft's Active Server Pages (ASP). An
+HTML designer can change the GUI without touching the Java code
+embedded into the JSP. Unfortunately, JSP doesn't have to conform to
+the MVC paradigm, so many applications were developed with business
+logic in the JSP pages. Several web application frameworks were
+created to bring MVC to the J2EE world, including Struts and
+Turbine. More information on Struts can be found <a
+href="http://struts.apache.org/">on its web site</a>.
+</p>
+
+
+<p>
+One web application version of MVC is called Model 2. Sun created this
+term to describe J2EE applications that are built with a Controller
+servlet that manages interaction with the View JSPs and the back-end
+Model.
+</p>
+
+<p>
+With Turbine, the Controller is the core TurbineServlet and the Action
+Event Handlers. Actions are used within Turbine to handle any user
+input that requires interaction with the Model. Turbine developers can
+assign different Actions to each input element in an HTML
+form. Actions aren't tied to a specific web page - if you have a
+common element such as a search form on multiple pages, you can use
+the same Action for each.
+</p>
+
+<p>
+The View in Turbine is the presentation layer, either <a
+href="http://velocity.apache.org/engine/">Velocity</a> or JSP. In
+either case, no business logic should be embedded in the View.
+</p>
+
+<p>
+The Model contains the Peers or Services that you use for your data
+source.
+</p>
+
+<subsection name="Pull model of MVC">
+
+<p>
+Turbine supports the Pull Model for moving data between the Model
+and the View. The Java programmers that work on the Model can create
+Tool objects that expose the business logic and objects of the
+Model to the View. Every page or screen in the View will have access
+to the Tools. If the UI programmers that work on the <a
+href="http://velocity.apache.org/engine/">Velocity</a> or JSP files
+in the View want to move functionality inside the page or between
+pages, they don't need to get the Model developers to change any
+code. This is an extremely effective method of separating presentation
+from data.
+</p>
+
+<p>
+Tool objects can follow the Facade design pattern of providing a
+single unified API for a complicated or disparate set of Model
+functionality.  This provides a level of decoupling between the View
+and the underlying Model.  If the Model definition changes, only the
+Tool will need to be modified, instead of every presentation page that
+uses that Model.
+</p>
+
+</subsection>
+<subsection name="Velocity or JSP">
+
+<p>
+Turbine gives developers a choice for which presentation language to
+use. Often times, this can be part of the requirements given to a
+development team. JSP is an established standard from Sun
+Microsystems, and there is a lot of momentum in the marketplace for
+JSP. From reading many anecdotal posts on the Turbine mailing lists,
+most developers that use Turbine prefer <a
+href="http://velocity.apache.org/engine/">Velocity</a>.
+</p>
+
+</subsection>
+</section>
+
+<section>Getting Started</section>
+
+<p>
+Turbine has a learning curve for new developers, but don't let that
+discourage you from using it for your own projects.
+</p>
+
+<p>
+A typical Turbine development environment consists of <a
+href="http://maven.apache.org/">Apache Maven</a> and the <a
+href="meta/">Maven Environment for Turbine Applications
+(META)</a>. This helps you setting up, compiling and deploying your
+Turbine application to a web container. We recommend using <a
+href="http://tomcat.apache.org/">Apache Tomcat</a> as web
+container. If you want to use the database features of Turbine for
+security and scheduler, you also need a JDBC compliant database,
+e.g. <a href="http://www.mysql.com/">MySQL</a>, <a
+href="http://www.postgresql.org/">PostgreSQL</a> or <a
+href="http://www.hsqldb.org/">HSQL</a>.
+</p>
+
+<p>
+Complete directions for getting Turbine up and running is available at
+the <a href="meta/">META site</a>.
+</p>
+
+<p>
+After working with Turbine for a few minutes, a few hours, or a few
+days = you might get stuck. The best thing to do is to
+check out the <a href="mail-lists.html">Turbine mailing list
+archives</a>. These are available for browsing using a web browser. If
+you are using Turbine on a regular base as developer or user, you
+should subscribe to one of the mailing lists.
+</p>
+
+<p>The Turbine development team hopes, that you have fun working with Turbine!</p>
+
+<section name="Further Reading">
+
+<p>
+The Turbine web site is at <a
+href="http://turbine.apache.org/">http://turbine.apache.org/</a>.
+</p>
+
+<p>
+A very good tutorial on using Torque is also on the Turbine web site,
+here <a
+href="http://db.apache.org/torque/releases/torque-3.2/tutorial/">http://db.apache.org/torque/releases/torque-3.2/tutorial/</a>.
+</p>
+
+<p>Velocity is available from <a
+href="http://velocity.apache.org/engine/">http://velocity.apache.org/engine/</a>. There is also
+extensive documentation about the Syntax and Usage of the Velocity Template Language available.
+</p>
+
+<p>
+<a href="mail-lists.html">The Turbine mailing lists.</a>
+</p>
+
+<subsection name="This page">
+<p>
+The original version of this page has been written by Jeff Linwood. He
+has been using Turbine to build a web services infrastructure
+application. He is a co-author of <a
+href="http://www.amazon.com/gp/product/1861007817/">Professional
+Struts Applications</a>, which covers Velocity. He'd like to thank
+Jason van Zyl, Troy Mutter, Skip Walker, David Minter, Jason Pettiss,
+and his brother Rob Linwood for reviewing this article.
+</p>
+<p>
+The article has been revised for Turbine 2.3 and Turbine 2.4 by <a
+href="mailto:henning@apache.org">Henning Schmiedehausen</a>. All
+errors and omissions from Jeffs' original article are mine.
+</p>
+</subsection>
+</section>
+</body>
+
+</document>
+

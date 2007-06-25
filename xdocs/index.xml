@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2001-2006 The Apache Software Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+	
+<document>
+
+  <properties>
+    <title>Turbine</title>
+  </properties>
+
+<body>
+
+<section name="Apache Turbine Web Application Framework">
+
+  <p>
+    Turbine is a servlet based framework that allows experienced Java
+    developers to quickly build web applications. Turbine allows you
+    to use personalize the web sites and to use user logins to restrict
+    access to parts of your application.
+  </p>
+
+  <p>
+    Turbine is a matured and well established framework that is used as
+    the base of many other projects (like e.g. the excellent <a
+    href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a>
+    Portals framework.
+  </p>
+
+  <p>
+    Turbine is an excellent choice for developing applications that make use of a 
+    services-oriented architecture. Some of the functionality
+    provided with Turbine includes a security management system, a 
+    scheduling service, XML-defined form validation server,
+    and an XML-RPC service for web services.  It is a 
+    simple task to create new services particular to your application.
+  </p>
+  
+  <p>
+    The Turbine core is free of any dependency on a presentation layer 
+    technology. Both JavaServer Pages (JSP) and 
+    <a href="http://velocity.apache.org/engine/">Velocity</a> are supported 
+    inside Turbine.  For developers already familiar with JSP, or have
+    existing JSP tag libraries, Turbine offers support for the Sun standard. 
+    Velocity is the favorite view technology of most users of the Turbine 
+    framework; try it out and see if Velocity can help you develop your 
+    web applications faster and work more easily with non-programming designers.
+  </p>
+
+  <p>
+    Turbine is developed in an open, participatory environment and
+    released under the <a href="common/license.html">Apache
+    Software License</a>. Turbine is intended to be a collaboration of the
+    best-of-breed developers from around the world.  We invite you to
+    participate in this open development project.  To learn more about getting
+    involved, <a href="how-to-help.html">look at our &quot;How to Help&quot; pages</a>.
+  </p>
+
+</section>
+
+<section name="Turbine Versions">
+  <p>
+    Turbine comes in two shapes which both have their advantages:
+
+  <ul>
+    <li><a href="turbine/turbine-2.3.2/">Turbine 2.3.2</a> is 
+    the version you should use when either migrating from an older version of
+    Turbine or starting a project based on a release version of the Turbine
+    framework.  The 2.3 branch of Turbine is actively maintained and we are
+    aiming to cut a <a href="turbine/development/turbine-2.3">2.3.3</a> release
+    in the not too distant future.</li>
+
+    <li>While <a href="turbine/development/turbine-2.4/">Turbine 2.4</a> is
+    the shape of things to come, it is currently in a state of flux and for now
+    we recommend that you stick with the 2.3.x release series.  Turbine 2.4 uses
+    next generation technologies like an <a href="http://avalon.apache.org/">
+    Avalon-based</a> container and decoupled components from the
+    <a href="fulcrum/">Fulcrum</a> sub-project of Turbine (most of benefits of
+    these enhancements will be realized in the forthcoming
+    <a href="turbine/development/turbine-2.3">2.3.3</a> release). One significant
+    change in 2.4 that is unlikely to be back ported to the 2.3 branch is the
+    introduction of a pipeline concept that allows you to define via an XML file
+    all the stages for processing a request.  Note that at time of writing there
+    are a number of fixes and enhancements that have been implemented in the 2.3
+    branch that need to be ported forward to 2.4 before it can move forward.
+    There are also issues relating to the separation of various services out to
+    Fulcrum components that need to be resolved.  For now, to use 2.4 you need
+    to build your own jars from the Subversion repository and tolerate the inevitable
+    api changes that will occur while the aforementioned issues are addressed.</li>
+  </ul>
+  </p>  
+</section>
+
+<section name="Sub Projects">
+
+<p></p>
+<ul>
+  <li>
+    <a href="/fulcrum/">Fulcrum</a> is a collection of services originally
+    developed as part of Turbine, but now decoupled and usable in any environment
+    that supports <a href="http://avalon.apache.org/">Avalon</a> components.
+  </li>
+  <li>
+    <a href="/meta/">META</a> (Maven Environment for Turbine Applications) helps
+    you to write Turbine applications.
+  </li>
+</ul>
+</section>
+
+<section name="Turbine Alumni">
+
+<p>
+ As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Jakarta Project</a>, Turbine has influenced
+quite a number of projects:
+</p>
+<ul>
+  <li>
+    <a href="http://db.apache.org/torque/">Torque</a> is a persistence
+    layer originally developed as part of Turbine.  Torque is now
+    decoupled and part of the <a href="http://db.apache.org/">Apache Database Project</a>.
+  </li>
+  <li>
+    <a href="http://maven.apache.org/">Maven</a> is an advanced Java
+    Project Management tool originally developed out of the frustration with the
+    Turbine build process. Maven is now a toplevel Apache project, residing at <a
+    href="http://maven.apache.org/">maven.apache.org</a>.
+  </li>
+  <li>
+    In addition, Turbine has spawned a number of <a href="http://jakarta.apache.org/commons/">Commons</a>
+    components like <a href="http://jakarta.apache.org/commons/configuration/">Commons configuration</a> or
+    <a href="http://jakarta.apache.org/commons/email/">Commons EMail</a>.
+  </li>
+</ul>
+</section>
+
+</body>
+</document>
