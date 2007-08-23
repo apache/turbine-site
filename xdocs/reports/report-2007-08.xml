@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>Board Report August 2007</title>
+  <author email="siegfried.goeschl@it20one.at">Siegfried Goeschl</author>
+ </properties>
+
+<body>
+
+<section name="Apache Turbine Project Board report, August 2007">
+
+<subsection name="Status">
+
+<p>Development activity has been very low this month.</p>
+<p>The ECCN issue regarding Turbine's cryptographic capabilities
+is still open - we are posting the question to
+legal-discuss@apache.org since no developers is confident
+enough to address this topic.</p>
+<p>We have no board-level issues at this time.</p>
+
+</subsection>
+
+<subsection name="Community changes">
+
+<p>No new committers were voted in since the last board report.</p>
+<p>No new PMC members were voted in since the last board report.</p>
+
+</subsection>
+
+<subsection name="Turbine core project">
+
+<p>No major activity this month.</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="Fulcrum component project">
+
+<p>
+The release candidate of fulcrum-yaafi-1.0.5 is slightly broken due to
+ incompatible changes of the JAMon library (used for intercepting the Avalon
+ services calls to measure the execution times). The main problem is the tight
+ coupling between the Avalon container and the various interceptor services
+ which is also the driving force for refactoring. The target of the
+ refactoring is to have a package with the interceptor logic which can be
+ released/updated independent from the container.</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="META project">
+
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>
