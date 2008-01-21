@@ -138,9 +138,9 @@ quite a number of projects:
     href="http://maven.apache.org/">maven.apache.org</a>.
   </li>
   <li>
-    In addition, Turbine has spawned a number of <a href="http://jakarta.apache.org/commons/">Commons</a>
-    components like <a href="http://jakarta.apache.org/commons/configuration/">Commons configuration</a> or
-    <a href="http://jakarta.apache.org/commons/email/">Commons EMail</a>.
+    In addition, Turbine has spawned a number of <a href="http://commons.apache.org/">Commons</a>
+    components like <a href="http://commons.apache.org/configuration/">Commons configuration</a> or
+    <a href="http://commons.apache.org/email/">Commons EMail</a>.
   </li>
 </ul>
 </section>

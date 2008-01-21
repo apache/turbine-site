@@ -50,7 +50,7 @@ developer.</p>
      href="http://www.hibernate.org/">Hibernate</a> are also
      supported.</li>
  <li>HTML Form Validation using the Turbine provided &quot;Intake&quot;-Service.</li>
- <li>Logging - Turbine uses <a href="http://jakarta.apache.org/commons/logging/">Commons Logging</a> and supports a wide range of logging
+ <li>Logging - Turbine uses <a href="http://commons.apache.org/logging/">Commons Logging</a> and supports a wide range of logging
 frameworks like <a href="http://logging.apache.org/log4j/docs/">Log4J</a>, jdk14 or simple file logging</li>
  <li>Service based framework, using <a href="http://avalon.apache.org/">Avalon</a> compatible components in Turbine 2.4 and beyond.</li>
 </ul>
