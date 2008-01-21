@@ -26,7 +26,7 @@ limitations under the License.
 <section name="Getting Started With Turbine">
   <p>
     Currently, the best way to get started with Turbine is to use the
-    <a href="meta/index.html">Maven Environment for Turbine Applications (M.E.T.A.)</a>.
+    <a href="meta/">Maven Environment for Turbine Applications (M.E.T.A.)</a>.
   </p>
 </section>
 
@@ -35,10 +35,11 @@ limitations under the License.
     If you already know how to use Turbine and simply want the latest
     binaries or source, you can get them from the
     <a href="http://www.apache.org/dyn/closer.cgi">apache mirror system</a>
-    in the jakarta/turbine subdirectory.
+    in the <em>turbine</em> subdirectory.
   </p>
 </section>
 
+<!--
 <section name="Getting Source snapshots">
   <p>
     We provide you snapshots of all the current turbine projects. These
@@ -47,21 +48,25 @@ limitations under the License.
     <a href="http://cvs.apache.org/dist/jakarta/turbine/nightly/">nightly snapshot site</a>.
   </p>
 </section>
+-->
 
 <section name="Getting The Development Source From Subversion">
   <p>
-    You can check out the latest source from the Jakarta Subversion repository.
-    Information on connecting to the Jakarta repositories is found 
-    <a href="http://jakarta.apache.org/site/cvsindex.html">on the Jakarta project repository information page</a>.<br/>
+    You can check out the latest source from the Turbine Subversion repository.
+    Information on connecting to the ASF Subversion repositories can be found on the
+    <a href="http://www.apache.org/dev/version-control.html">version control page</a>.
+    More specific details can be found on the <em>Source Repository</em> page,
+    within <em>Project Reports</em> under <em>Project Documentation</em>,
+    of each Turbine sub-project.
 
     </p>
-    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/jakarta/turbine/core]]></source>
+    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/core/branches/TURBINE_2_3_BRANCH/]]></source>
 </section>
 
 <section name="Building The Source">
   <p>
     Be sure and read the README.txt file for instructions on how to build Turbine.
-    Turbine uses <a href="http://maven.apache.org">Maven</a> as its 
+    Turbine uses <a href="http://maven.apache.org/maven-1.x/">Maven</a> as its 
     build system, and building is as simple as running 'maven' or 'maven jar:jar'
     at the top of the source directory.
   </p>
