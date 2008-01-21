@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>Board Report November 2007</title>
+  <author email="seade@backstagetech.com.au">Scott Eade</author>
+ </properties>
+
+<body>
+
+<section name="Apache Turbine Project Board report, November 2007">
+
+<subsection name="Status">
+
+<p>There has been some progress on the ECCN issue - the fulcrum
+ components are now in good shape, but some recent changes there
+ need to be back-ported to turbine core and a release made
+ before we send the ECCN notification.</p>
+<p>We have no board-level issues at this time.</p>
+
+</subsection>
+
+<subsection name="Community changes">
+
+<p>No new committers were voted in since the last board report.</p>
+<p>No new PMC members were voted in since the last board report.</p>
+
+</subsection>
+
+<subsection name="Turbine core project">
+
+<p>No major activity this month, but the changes made in the
+ pending fulcrum-crypto-1.0.6 release need to be back-ported to
+ the components currently integrated in turbine core (head and
+ maintenance branches).</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="Fulcrum component project">
+
+<p>Work was put into eliminating dependencies with the
+ potential to complicate tidying up the ECCN compliance.</p>
+<p>Releases since the last board report:</p>
+<ul>
+<li>fulcrum-yaafi-1.0.5 was released on 2007-10-03.</li>
+<li>fulcrum-crypto-1.0.6 has been cut and the release
+ vote passed on 2007-11-06 - final deployment is pending.</li>
+</ul>
+
+</subsection>
+
+<subsection name="META project">
+
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>
