@@ -134,15 +134,15 @@ limitations under the License.
 <p>
           <strong>Get The Source:</strong>
           Check out the latest source from the Turbine subversion module. You can learn
-          about the Jakarta repositories <a href="http://jakarta.apache.org/site/cvsindex.html">here</a>.
-          The Turbine documentation resides in the jakarta/turbine/site tree:
+          about the Turbine repositories on the <a href="../download.html">download page</a>.
+          The Turbine documentation resides in the turbine-site tree:
 </p>
-        <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/jakarta/turbine/site]]></source>
+        <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/site]]></source>
       </li>
       <li>
 <p>
           <strong>Build The Site:</strong>
-          The documenation is built using <a href="http://maven.apache.org/">Maven</a>,
+          The documentation is built using <a href="http://maven.apache.org/maven-1.x/">Maven</a>,
           with the following command:
 </p>
         <source><![CDATA[maven site:generate]]></source>
