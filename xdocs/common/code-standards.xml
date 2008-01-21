@@ -137,7 +137,7 @@ private int myVariable;
 ]]></source>
 
 <p>
-7. The Jakarta/Turbine License <strong>MUST</strong> be placed at the top
+7. The ASL 2.0 License <strong>MUST</strong> be placed at the top
 of each and every file.
 </p>
 
@@ -183,8 +183,8 @@ import org.apache.bar.*;
 
 <p>
 11. Import statements should be listed in alphabetical order.  Use blank lines 
-to seperate products.  In cases where there is a large number of imports from a 
-single product (like java.x) consider seperating at the second level.  For example,
+to separate products.  In cases where there is a large number of imports from a 
+single product (like java.x) consider separating at the second level.  For example,
 you could group all of the java.util, java.swing, etc...
 </p>
 
