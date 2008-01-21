@@ -46,7 +46,7 @@ limitations under the License.
     </menu>
 
     <menu name="Turbine Wiki Shortcuts">
-        <item name="Turbine Wiki Home"                href="http://wiki.apache.org/turbine/Turbine2"/>
+        <item name="Turbine Wiki Home"                href="http://wiki.apache.org/turbine/"/>
         <item name="Frequently Asked Questions (FAQ)" href="http://wiki.apache.org/turbine/Turbine2/FAQ"/>
         <item name="Tutorial"                         href="http://wiki.apache.org/turbine/Turbine2/Tutorial"/>
         <item name="User's Guide"                     href="http://wiki.apache.org/turbine/Turbine2/UsersGuide"/>
