@@ -153,21 +153,21 @@ limitations under the License.
     <dependency>
       <groupId>maven</groupId>
       <artifactId>maven-changelog-plugin</artifactId>
-      <version>1.8.2</version>
+      <version>1.9.2</version>
       <type>plugin</type>
     </dependency>
 
     <dependency>
       <groupId>maven</groupId>
       <artifactId>maven-site-plugin</artifactId>
-      <version>1.6.1</version>
+      <version>1.7.2</version>
       <type>plugin</type>
     </dependency>
 
     <dependency>
       <groupId>maven</groupId>
       <artifactId>maven-xdoc-plugin</artifactId>
-      <version>1.9.2</version>
+      <version>1.10.1</version>
       <type>plugin</type>
     </dependency>
   </dependencies>
