@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2006 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -30,31 +33,31 @@ This document contains links that can aid you in the development of turbine
 </p>
 
 <ul>
-<li>Servlet Specs: 
-  <a href="http://java.sun.com/products/servlet/download.html"><b>2.2</b></a>, 
+<li>Servlet Specs:
+  <a href="http://java.sun.com/products/servlet/download.html"><b>2.2</b></a>,
   <a href="http://www.jcp.org/aboutJava/communityprocess/final/jsr053/"><b>2.3</b></a>
 </li>
-<li>Servlet API: 
-  <a href="http://java.sun.com/products/servlet/2.2/javadoc/"><b>2.2</b></a>, 
+<li>Servlet API:
+  <a href="http://java.sun.com/products/servlet/2.2/javadoc/"><b>2.2</b></a>,
   <a href="http://java.sun.com/products/servlet/2.3/javadoc/"><b>2.3</b></a>
 </li>
 
-<li>Servlet Deltas: 
-  <a href="http://www.servlets.com/soapbox/servlet22.html"><b>2.1-&gt;2.2</b></a>, 
+<li>Servlet Deltas:
+  <a href="http://www.servlets.com/soapbox/servlet22.html"><b>2.1-&gt;2.2</b></a>,
   <a href="http://www.servlets.com/soapbox/servlet23.html"><b>2.2-&gt;2.3</b></a></li>
-<li>HTTP RFCs: 
-<b><a href="http://www.servlets.com/rfcs/rfc1945.txt">1.0</a></b>, 
+<li>HTTP RFCs:
+<b><a href="http://www.servlets.com/rfcs/rfc1945.txt">1.0</a></b>,
 <b><a href="http://www.servlets.com/rfcs/rfc2616.txt">1.1</a></b>
 </li>
-<li>File Upload RFCs: 
-	<a href="http://www.servlets.com/rfcs/rfc1867.txt"><b>1867</b></a>, 
+<li>File Upload RFCs:
+	<a href="http://www.servlets.com/rfcs/rfc1867.txt"><b>1867</b></a>,
 	<b><a href="http://www.servlets.com/rfcs/rfc2388.txt">2388</a></b></li>
-<li>HTML Specs: 
-<b><a href="http://www.w3.org/TR/REC-html32">3.2</a></b>, 
+<li>HTML Specs:
+<b><a href="http://www.w3.org/TR/REC-html32">3.2</a></b>,
 <b><a href="http://www.w3.org/TR/html4/">4.0</a></b>
 </li>
-<li>Cookie Specs: 
-<a href="http://wp.netscape.com/newsref/std/cookie_spec.html"><b>Netscape</b></a>, 
+<li>Cookie Specs:
+<a href="http://wp.netscape.com/newsref/std/cookie_spec.html"><b>Netscape</b></a>,
 <b><a href="http://www.servlets.com/rfcs/rfc2109.txt">2109</a></b>
 </li>
 </ul>

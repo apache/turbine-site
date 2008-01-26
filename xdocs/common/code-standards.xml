@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2004 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -116,14 +119,14 @@ files should have the platform specific linefeeds.
 modifications use an existing class/method/variable which lacks
 JavaDoc, it is required that you add it.  This will improve the
 project as a whole.  For guidelines on how to write proper
-JavaDocs, see 
+JavaDocs, see
 <a href="http://java.sun.com/j2se/javadoc/writingdoccomments/index.html">
 Sun's guidelines</a>
 </p>
 
 <p>
 6. When writing javadocs for variables, try to keep the comment on just
-one line.  
+one line.
 </p>
 <source><![CDATA[
 /** Documentation of this variable */
@@ -182,15 +185,15 @@ import org.apache.bar.*;
 ]]></source>
 
 <p>
-11. Import statements should be listed in alphabetical order.  Use blank lines 
-to separate products.  In cases where there is a large number of imports from a 
+11. Import statements should be listed in alphabetical order.  Use blank lines
+to separate products.  In cases where there is a large number of imports from a
 single product (like java.x) consider separating at the second level.  For example,
 you could group all of the java.util, java.swing, etc...
 </p>
 
 <p>
-12.  The conditional part of if and while statements should not use 
-the equality operator for testing true or false values.  
+12.  The conditional part of if and while statements should not use
+the equality operator for testing true or false values.
 </p>
 
 <source test=""><![CDATA[
@@ -203,7 +206,7 @@ if (foo==true)
 
 <p>
 13.  Always use the short form of the classname in code.  Certain exception
-do apply where the fully qualified classname is required such as when 
+do apply where the fully qualified classname is required such as when
 java.sql.Date and java.util.Date are used in the same class.  Otherwise, you
 should always import the class and use the short name.
 </p>

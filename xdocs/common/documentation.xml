@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2004 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -45,8 +48,8 @@ limitations under the License.
       <li>
         <b>Turbine 2.3 Release Changes</b>
         <ul>
-          <li>Describe how Turbine uses Avalon (there is a basic service 
-          document, but furtehr details on creating services would be 
+          <li>Describe how Turbine uses Avalon (there is a basic service
+          document, but furtehr details on creating services would be
           welcome).</li>
         </ul>
       </li>
@@ -78,12 +81,12 @@ limitations under the License.
         <ul>
           <li>Future Features and Enhancements</li>
           <li>The future of Fulcrum</li>
-          <li>Currently in the wiki at <a href="http://wiki.apache.org/turbine/Turbine2/Development">Turbine2/Development</a></li>        
+          <li>Currently in the wiki at <a href="http://wiki.apache.org/turbine/Turbine2/Development">Turbine2/Development</a></li>
         </ul>
       </li>
 </ul>
   </subsection>
-  
+
   <subsection name="Our Documentation Has Three States">
     <ol>
       <li>
@@ -106,8 +109,8 @@ limitations under the License.
 <p>
       Now that you know what we are working on, you need to know the best ways to help.
       Content is farmed and stabilized on the <a href="wiki.html">Turbine Wiki</a>
-      until it is stable enough to become official documentation.  Additionally 
-      questions are answered and re-answered on the turbine-user mailing list.  
+      until it is stable enough to become official documentation.  Additionally
+      questions are answered and re-answered on the turbine-user mailing list.
       You can help the Turbine Documentation effort by:
 </p>
 <ul>
@@ -171,9 +174,9 @@ Total time:  20 seconds]]></source>
       </li>
 
       <li>
-        <strong>Submit Your Changes:</strong> 
+        <strong>Submit Your Changes:</strong>
           If you have a patch, log in to our <a
-          href="http://issues.apache.org//jira/browse/TRB">issue tracker</a> 
+          href="http://issues.apache.org//jira/browse/TRB">issue tracker</a>
           and create a new issue.A project committer will
           approve the patch and apply it, or let you know if something
           should be changed.

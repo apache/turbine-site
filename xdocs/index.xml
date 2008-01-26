@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2006 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
-	
+
 <document>
 
   <properties>
@@ -40,22 +43,22 @@ limitations under the License.
   </p>
 
   <p>
-    Turbine is an excellent choice for developing applications that make use of a 
+    Turbine is an excellent choice for developing applications that make use of a
     services-oriented architecture. Some of the functionality
-    provided with Turbine includes a security management system, a 
+    provided with Turbine includes a security management system, a
     scheduling service, XML-defined form validation server,
-    and an XML-RPC service for web services.  It is a 
+    and an XML-RPC service for web services.  It is a
     simple task to create new services particular to your application.
   </p>
-  
+
   <p>
-    The Turbine core is free of any dependency on a presentation layer 
-    technology. Both JavaServer Pages (JSP) and 
-    <a href="http://velocity.apache.org/engine/">Velocity</a> are supported 
+    The Turbine core is free of any dependency on a presentation layer
+    technology. Both JavaServer Pages (JSP) and
+    <a href="http://velocity.apache.org/engine/">Velocity</a> are supported
     inside Turbine.  For developers already familiar with JSP, or have
-    existing JSP tag libraries, Turbine offers support for the Sun standard. 
-    Velocity is the favorite view technology of most users of the Turbine 
-    framework; try it out and see if Velocity can help you develop your 
+    existing JSP tag libraries, Turbine offers support for the Sun standard.
+    Velocity is the favorite view technology of most users of the Turbine
+    framework; try it out and see if Velocity can help you develop your
     web applications faster and work more easily with non-programming designers.
   </p>
 
@@ -75,7 +78,7 @@ limitations under the License.
     Turbine comes in two shapes which both have their advantages:
 
   <ul>
-    <li><a href="turbine/turbine-2.3.2/">Turbine 2.3.2</a> is 
+    <li><a href="turbine/turbine-2.3.2/">Turbine 2.3.2</a> is
     the version you should use when either migrating from an older version of
     Turbine or starting a project based on a release version of the Turbine
     framework.  The 2.3 branch of Turbine is actively maintained and we are
@@ -100,7 +103,7 @@ limitations under the License.
     to build your own jars from the Subversion repository and tolerate the inevitable
     api changes that will occur while the aforementioned issues are addressed.</li>
   </ul>
-  </p>  
+  </p>
 </section>
 
 <section name="Sub Projects">

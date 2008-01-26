@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2006 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -26,58 +29,58 @@ limitations under the License.
 <section name="Related Apache Projects">
 
 <p>
-  <a href="http://velocity.apache.org/engine/">Velocity</a> is a view 
-  technology comparable to JSP) that Turbine officially supports. Many 
+  <a href="http://velocity.apache.org/engine/">Velocity</a> is a view
+  technology comparable to JSP) that Turbine officially supports. Many
   Turbine developers feel Velocity is an excellent alternative
   to JSP for web application development.
 </p>
- 
+
 <p>
-  <a href="http://portals.apache.org/jetspeed-1/">Jetspeed</a> is an open source 
-  portal engine built on top of the Turbine web application framework.  Use 
+  <a href="http://portals.apache.org/jetspeed-1/">Jetspeed</a> is an open source
+  portal engine built on top of the Turbine web application framework.  Use
   Jetspeed to develop a ready-to-go portal solution with open technology.
 </p>
- 
+
 <p>
-  Turbine uses <a href="http://logging.apache.org/log4j/">Log4j</a> for a 
+  Turbine uses <a href="http://logging.apache.org/log4j/">Log4j</a> for a
   logging framework.  No more commenting System.out.println()'s in your code!
 </p>
- 
+
 <p>
-  <a href="http://maven.apache.org/">Maven</a> is a Java 
-  project management and project comprehension tool. Maven is based on the 
-  concept of a project object model (POM) in that all the artifacts produced 
+  <a href="http://maven.apache.org/">Maven</a> is a Java
+  project management and project comprehension tool. Maven is based on the
+  concept of a project object model (POM) in that all the artifacts produced
   by Maven are a result of consulting a well defined model for your project.
 </p>
- 
+
 <p>
-  <a href="http://db.apache.org/torque/">Torque</a> is a persistence layer. 
-  Torque includes a generator to generate all the database resources required 
-  by your application and includes a runtime environment to run the generated 
-  classes. 
+  <a href="http://db.apache.org/torque/">Torque</a> is a persistence layer.
+  Torque includes a generator to generate all the database resources required
+  by your application and includes a runtime environment to run the generated
+  classes.
 </p>
- 
- 
+
+
 </section>
- 
+
 <section name="Articles on Turbine and related projects">
- 
+
 <p>
   <a href="http://www.javaworld.com/javaworld/jw-10-2002/jw-1011-maven.html">
   Maven article</a> - Maven ties together tools for better code management.
   by Jeff Linwood, published in JavaWorld on October 11, 2002.
 </p>
- 
+
 <p>
   <a href="http://www.javaworld.com/javaworld/jw-12-2001/jw-1228-velocity.html">
   Velocity Introduction</a> - Start up the Velocity Template Engine.
   by Geir Magnusson, Jr., published in JavaWorld on December 28, 2001.
 </p>
- 
+
 </section>
- 
+
 <section name="Viewpoints on JSP">
- 
+
 <p>
   On the Velocity site, there is Jon Stevens'
   <a href="http://wiki.apache.org/velocity/YouMakeTheDecision">

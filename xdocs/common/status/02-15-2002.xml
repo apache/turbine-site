@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2004 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -29,7 +32,7 @@ limitations under the License.
        run down of what's been going on this week in Turbine.
      </p>
    </section>
-   
+
    <section name="New Committers">
      <p>
        James Taylor was added as a new committer this week. James has been
@@ -48,16 +51,16 @@ limitations under the License.
        Torque that exists in the 2.x tree is now officially road kill.
      </p>
    </section>
-   
+
    <section name="New Torque Tutorial!">
      <p>
        Pete Kazmier has written an excellent Torque Tutorial which is
        now available <a href="http://jakarta.apache.org/turbine/torque/tutorial.html">here</a>.
-       This will certainly help a lot of users who have had some initial difficulty 
+       This will certainly help a lot of users who have had some initial difficulty
        in getting Torque set up and running. Thanks Pete!
      </p>
    </section>
-   
+
    <section name="Turbine Project Build System">
      <p>
        Jason has been working on a build system that can be used by all
@@ -106,7 +109,7 @@ limitations under the License.
        logging then they will easily be able to do so.
      </p>
    </section>
-   
+
    <section name="JCS Documentation">
      <p>
        Pete Kazmier started another great documentation effort by reworking
@@ -114,6 +117,6 @@ limitations under the License.
        definitely help people understand what a kick ass cache JCS really is :-)
      </p>
    </section>
-   
+
   </body>
 </document>

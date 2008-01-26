@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!--
-Copyright 2001-2006 The Apache Software Foundation
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
 -->
 
 <document>
@@ -68,17 +71,17 @@ limitations under the License.
     </ul>
     </subsection>
 
-    <subsection name="Related Apache Projects">    
+    <subsection name="Related Apache Projects">
     <ul>
       <li>
-        <a href="http://velocity.apache.org/engine/">Velocity</a> -  A view 
-        technology comparable to JSP) that Turbine officially supports. Many 
+        <a href="http://velocity.apache.org/engine/">Velocity</a> -  A view
+        technology comparable to JSP) that Turbine officially supports. Many
         Turbine developers feel Velocity is an excellent alternative
         to JSP for web application development.
       </li>
       <li>
-        <a href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a> - An open source 
-        portal engine built on top of the Turbine web application framework.  Use 
+        <a href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a> - An open source
+        portal engine built on top of the Turbine web application framework.  Use
         Jetspeed to develop a ready-to-go portal solution with open technology.
       </li>
       <li>
@@ -87,20 +90,20 @@ limitations under the License.
         No more commenting System.out.println()'s in your code!
       </li>
       <li>
-        <a href="http://maven.apache.org">Maven</a> - A Java 
-        project management and project comprehension tool. Maven is based on the 
-        concept of a project object model (POM) in that all the artifacts produced 
+        <a href="http://maven.apache.org">Maven</a> - A Java
+        project management and project comprehension tool. Maven is based on the
+        concept of a project object model (POM) in that all the artifacts produced
         by Maven are a result of consulting a well defined model for your project.
       </li>
       <li>
-        <a href="http://db.apache.org/torque/">Torque</a> - A persistence layer. 
-        Torque includes a generator to generate all the database resources required 
-        by your application and includes a runtime environment to run the generated 
+        <a href="http://db.apache.org/torque/">Torque</a> - A persistence layer.
+        Torque includes a generator to generate all the database resources required
+        by your application and includes a runtime environment to run the generated
         classes.
       </li>
     </ul>
     </subsection>
-     
+
     <subsection name="Viewpoints on JSP">
     <ul>
       <li><a href="http://wiki.apache.org/velocity/YouMakeTheDecision">You Make The Decision</a>

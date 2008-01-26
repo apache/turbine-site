@@ -42,7 +42,7 @@ For bug reporting and issue tracking, Turbine uses the <a href="#Issue tracking"
 JIRA bug tracker</a> at the Apache Software Foundation. Please report bugs using
 the tracker, if you send them to the mailing lists, most of the times a member of
 the Turbine Community will point you there anyway. Using the bug tracker makes
-sure that your bug report is recorded and processed in a timely manner. 
+sure that your bug report is recorded and processed in a timely manner.
 </p>
 
 </section>
@@ -143,7 +143,7 @@ the general public.
         </tr>
     </tbody>
 </table>
-      
+
 <table class="bodyTable">
     <thead>
         <tr class="b">
@@ -232,14 +232,14 @@ configured as components:
         </tr>
     </tbody>
 </table>
-       
+
 </section>
 
 <section name="Contacting the Apache Turbine PMC">
 
 <p>
 The Apache Turbine Project Management Committee (PMC) provides oversight to the
-project and is legally responsible for all software releases. It reports to the 
+project and is legally responsible for all software releases. It reports to the
 <a href="http://www.apache.org/foundation/board/">Board of the Apache Software
 Foundation</a> quarterly. The reports are <a href="board-reports.html">archived
 and public</a>.
@@ -247,7 +247,7 @@ and public</a>.
 
 <p>
 The Apache Turbine PMC can be reached at
-<a href="mailto:private@turbine.apache.org">private@turbine.apache.org</a>. 
+<a href="mailto:private@turbine.apache.org">private@turbine.apache.org</a>.
 </p>
 
 </section>
