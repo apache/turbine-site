@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+  =======================================================================
+
+   Copyright (c) 2006 The Apache Software Foundation.  
+   All rights reserved.
+
+  =======================================================================
+-->
+  <Project rdf:about="http://turbine.apache.org">
+    <created>2008-04-08</created>
+    <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
+    <name>Apache Turbine</name>
+    <homepage rdf:resource="http://turbine.apache.org" />
+    <asfext:pmc rdf:resource="http://jakarta.apache.org" />
+    <shortdesc>Turbine is a servlet based framework that allows Java developers to quickly build web applications.</shortdesc>
+    <description> Turbine is a servlet based framework that allows experienced Java developers to quickly build web applications. Turbine allows you to use personalize the web sites and to use user logins to restrict access to parts of your application.
+
+Turbine is a matured and well established framework that is used as the base of many other projects (like e.g. the excellent Jetspeed 1 Portals framework.
+
+Turbine is an excellent choice for developing applications that make use of a services-oriented architecture. Some of the functionality provided with Turbine includes a security management system, a scheduling service, XML-defined form validation server, and an XML-RPC service for web services. It is a simple task to create new services particular to your application.
+
+The Turbine core is free of any dependency on a presentation layer technology. Both JavaServer Pages (JSP) and Velocity are supported inside Turbine. For developers already familiar with JSP, or have existing JSP tag libraries, Turbine offers support for the Sun standard. Velocity is the favorite view technology of most users of the Turbine framework; try it out and see if Velocity can help you develop your web applications faster and work more easily with non-programming designers.
+
+Turbine is developed in an open, participatory environment and released under the Apache Software License. Turbine is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, look at our "How to Help" pages. </description>
+    <bug-database rdf:resource="http://issues.apache.org/jira/browse/TRB" />
+    <mailing-list rdf:resource="http://turbine.apache.org/contact.html" />
+    <download-page rdf:resource="http://turbine.apache.org/download.html" />
+    <programming-language>Java</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/web-framework" />
+    <release>
+      <Version>
+        <name>Apache Turbine</name>
+        <created>2005-10-03</created>
+        <revision>2.3.2</revision>
+      </Version>
+    </release>
+    <repository>
+      <SVNRepository>
+        <location rdf:resource="http://svn.apache.org/repos/asf/turbine/core/branches/TURBINE_2_3_BRANCH/"/>
+        <browse rdf:resource="http://svn.apache.org/viewvc/turbine/core/branches/TURBINE_2_3_BRANCH/"/>
+      </SVNRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Apache Turbine Developers community</foaf:name>
+          <foaf:mbox rdf:resource="mailto:dev@turbine.apache.org"/>
+      </foaf:Person>
+    </maintainer>
+  </Project>
+</rdf:RDF>
