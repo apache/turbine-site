@@ -28,7 +28,25 @@
 
 <section name="News And Status">
 
-<h4>16 May 2007 - Turbine becomes a top-level project of the ASF</h4>
+  <h4>10 Apr 2008 - Turbine starts release cycle for Turbine 2.3.3</h4>
+  <p>
+    Finally we used the ApacheCon to get old and new people together and cut down
+    some responsibilities on committers. So we started the release cycle and are looking
+    forward for future releases.
+  </p>
+  <p>
+    There will be a period of instability while the site, mailing lists, etc. are
+    migrated from jakarta.apache.org to turbine.apache.org, but we hope to sort
+    everything out in the near future.
+  </p>
+  <p>
+    You may be interested to know that there has been a fair bit of activity lately
+    working towards a 2.3.3 release.  There is still a little more work to do and
+    a couple of dependencies we are waiting for, but this is shaping up to be a
+    good step forward and long overdue update.  Watch this space.
+  </p>
+
+  <h4>16 May 2007 - Turbine becomes a top-level project of the ASF</h4>
 <p>
 At the May board meeting of the ASF a resolution to make Turbine a top-level
 project of the ASF was passed.  This means we are leaving the umbrella of

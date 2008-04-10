@@ -81,10 +81,10 @@
     <li><a href="turbine/turbine-2.3.2/">Turbine 2.3.2</a> is
     the version you should use when either migrating from an older version of
     Turbine or starting a project based on a release version of the Turbine
-    framework.  The 2.3 branch of Turbine is actively maintained and we are
-    aiming to cut a <a href="turbine/development/turbine-2.3">2.3.3</a> release
-    in the not too distant future.</li>
-
+    framework.  The 2.3 branch of Turbine is actively maintained and we have started
+    the <a href="turbine/development/turbine-2.3">2.3.3</a> release
+    cycle. So we are going to have a maintenance relase soon.</li>
+    
     <li>While <a href="turbine/development/turbine-2.4/">Turbine 2.4</a> is
     the shape of things to come, it is currently in a state of flux and for now
     we recommend that you stick with the 2.3.x release series.  Turbine 2.4 uses
