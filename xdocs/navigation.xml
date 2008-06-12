@@ -59,7 +59,7 @@
     <menu name="Turbine Releases">
         <item name="Overview"        href="/turbine/index.html"/>
         <item name="Turbine 2.3.2"   href="/turbine/turbine-2.3.2/index.html"/>
-        <item name="Turbine 2.3.3-RC1"   href="/turbine/turbine-2.3.3/index.html"/>
+        <item name="Turbine 2.3.3-RC1"   href="/turbine/turbine-2.3.3-rc1/index.html"/>
         <item name="Turbine 2.4-M1"  href="/turbine/turbine-2.4-M1/index.html"/>
     </menu>
 
