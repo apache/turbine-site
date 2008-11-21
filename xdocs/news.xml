@@ -27,6 +27,12 @@
 <body>
 
 <section name="News And Status">
+  <h4>21 Nov 2008 - Release of Turbine 2.3.3</h4>
+  <p>
+    The Turbine Team is proud to announce the 2.3.3 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+  </p>
 
   <h4>10 Apr 2008 - Turbine starts release cycle for Turbine 2.3.3</h4>
   <p>
