@@ -81,18 +81,17 @@
     <li><a href="turbine/turbine-2.3.3/">Turbine 2.3.3</a> is
     the version you should use when either migrating from an older version of
     Turbine or starting a project based on a release version of the Turbine
-    framework.  The 2.3 branch of Turbine is actively maintained and we have started
-    the <a href="turbine/development/turbine-2.3">2.3.3</a> release
-    cycle. So we are going to have a maintenance relase soon.</li>
-    
+    framework.  The <a href="turbine/development/turbine-2.3/">2.3 branch</a>
+    of Turbine is actively maintained.</li>
+
     <li>While <a href="turbine/development/turbine-2.4/">Turbine 2.4</a> is
     the shape of things to come, it is currently in a state of flux and for now
     we recommend that you stick with the 2.3.x release series.  Turbine 2.4 uses
     next generation technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
     <a href="fulcrum/">Fulcrum</a> sub-project of Turbine (most of benefits of
-    these enhancements will be realized in the forthcoming
-    <a href="turbine/development/turbine-2.3">2.3.3</a> release). One significant
+    these enhancements will are realized in the
+    <a href="turbine/turbine-2.3.3/">2.3.3</a> release). One significant
     change in 2.4 that is unlikely to be back ported to the 2.3 branch is the
     introduction of a pipeline concept that allows you to define via an XML file
     all the stages for processing a request.  Note that at time of writing there
