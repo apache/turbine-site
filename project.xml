@@ -175,6 +175,7 @@
     </dependency>
   </dependencies>
 
+<!--
   <build>
     <sourceDirectories></sourceDirectories>
     <aspectSourceDirectories></aspectSourceDirectories>
@@ -182,6 +183,7 @@
     <jarResources></jarResources>
     <jars></jars>
   </build>
+-->
 
   <!-- reports>
     <report>maven-developer-activity-plugin</report>
