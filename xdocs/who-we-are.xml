@@ -105,13 +105,6 @@ common mistakes and as a community we all grow together.
             <td>PMC Member</td>
         </tr>
         <tr class="b">
-            <td>Henning P. Schmiedehausen</td>
-            <td>henning</td>
-            <td>hps@intermeta.de</td>
-            <td>INTERMETA - Gesellschaft für Mehrwertdienste mbH</td>
-            <td>PMC Member</td>
-        </tr>
-        <tr class="a">
             <td>Thomas Vandahl</td>
             <td>tv</td>
             <td>tv@apache.org</td>
@@ -179,13 +172,6 @@ common mistakes and as a community we all grow together.
             <td>Java Developer</td>
         </tr>
         <tr class="b">
-            <td>Henning P. Schmiedehausen</td>
-            <td>henning</td>
-            <td>hps@intermeta.de</td>
-            <td>INTERMETA - Gesellschaft für Mehrwertdienste mbH</td>
-            <td>Java Developer</td>
-        </tr>
-        <tr class="a">
             <td>Thomas Vandahl</td>
             <td>tv</td>
             <td>tv@apache.org</td>
@@ -197,15 +183,34 @@ common mistakes and as a community we all grow together.
 
 </section>
 
-<!--<section name="Apache Turbine Emeriti">-->
-<!---->
-<!--<p>-->
-<!--Our emeriti are project committers that have not been active on the project,-->
-<!--committed code or participated on the mailing lists for more than twelve months.-->
-<!--</p>-->
-<!---->
-<!--TBC-->
-<!--</section>-->
+<section name="Apache Turbine Emeriti">
+
+<p>
+Our emeriti are project committers that have not been active on the project,
+committed code or participated on the mailing lists for more than twelve months.
+</p>
+
+<table class="bodyTable">
+    <thead>
+        <tr class="a">
+            <th>Name</th>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Organization</th>
+            <th>Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="b">
+            <td>Henning P. Schmiedehausen</td>
+            <td>henning</td>
+            <td>hps@intermeta.de</td>
+            <td>INTERMETA - Gesellschaft für Mehrwertdienste mbH</td>
+            <td>PMC Member</td>
+        </tr>
+    </tbody>
+</table>
+</section>
 
 </body>
 </document>
