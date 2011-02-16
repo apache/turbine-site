@@ -18,11 +18,15 @@
  under the License.
 -->
 
-<project name="Turbine Site"
-        href="http://turbine.apache.org">
+<project name="Apache Turbine">
 
-    <title>Turbine Site</title>
-
+    <bannerLeft>
+        <name>Apache Turbine</name>
+        <src>http://turbine.apache.org/images/turbine-project.png</src>
+        <href>http://turbine.apache.org/</href>
+    </bannerLeft>
+    <publishDate format="dd MMMM yyyy" position="left" />
+    <version position="left" />
     <body>
     <links>
       <item name="Turbine Home"            href="/turbine/"/>
