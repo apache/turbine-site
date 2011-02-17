@@ -153,9 +153,9 @@
   </scm>
   <distributionManagement>
     <site>
-      <id>default</id>
-      <name>Default Site</name>
-      <url>scp://people.apache.org/www/turbine.apache.org/</url>
+      <id>apache.website</id>
+      <name>Apache Turbine Site</name>
+      <url>scpexe://people.apache.org/www/turbine.apache.org/</url>
     </site>
   </distributionManagement>
   <reporting>
