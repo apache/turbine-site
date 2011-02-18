@@ -25,8 +25,12 @@
         <src>http://turbine.apache.org/images/turbine-project.png</src>
         <href>http://turbine.apache.org/</href>
     </bannerLeft>
+    <bannerRight>
+        <src>http://turbine.apache.org/images/logo.gif</src>
+    </bannerRight>
     <publishDate format="dd MMMM yyyy" position="left" />
     <version position="left" />
+    
     <body>
     <links>
       <item name="Turbine Home"            href="/turbine/"/>
