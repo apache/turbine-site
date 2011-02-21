@@ -84,23 +84,19 @@
     framework.  The <a href="turbine/development/turbine-2.3/">2.3 branch</a>
     of Turbine is actively maintained.</li>
 
-    <li>While <a href="turbine/development/turbine-2.4/">Turbine 2.4</a> is
-    the shape of things to come, it is currently in a state of flux and for now
-    we recommend that you stick with the 2.3.x release series.  Turbine 2.4 uses
+    <li>While <a href="turbine/development/turbine-4.0/">Turbine 4.0</a> is
+    the shape of things to come. For production use
+    we recommend that you stick with the 2.3.x release series. Turbine 4.0 uses
     next generation technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
     <a href="fulcrum/">Fulcrum</a> sub-project of Turbine (most of benefits of
-    these enhancements will are realized in the
+    these enhancements are realized in the
     <a href="turbine/turbine-2.3.3/">2.3.3</a> release). One significant
-    change in 2.4 that is unlikely to be back ported to the 2.3 branch is the
+    change in 4.0 that is unlikely to be back ported to the 2.3 branch is the
     introduction of a pipeline concept that allows you to define via an XML file
-    all the stages for processing a request.  Note that at time of writing there
-    are a number of fixes and enhancements that have been implemented in the 2.3
-    branch that need to be ported forward to 2.4 before it can move forward.
-    There are also issues relating to the separation of various services out to
-    Fulcrum components that need to be resolved.  For now, to use 2.4 you need
-    to build your own jars from the Subversion repository and tolerate the inevitable
-    api changes that will occur while the aforementioned issues are addressed.</li>
+    all the stages for processing a request. A milestone release is in the works.
+    You are encouraged to try out the current 
+    <a href="http://svn.apache.org/repos/asf/turbine/core/trunk">trunk</a>.</li>
   </ul>
   </p>
 </section>
@@ -112,7 +108,7 @@
   <li>
     <a href="/fulcrum/">Fulcrum</a> is a collection of services originally
     developed as part of Turbine, but now decoupled and usable in any environment
-    that supports <a href="http://avalon.apache.org/">Avalon</a> components.
+    that supports <a href="http://wiki.apache.org/excalibur/AvalonFramework">Avalon</a> components.
   </li>
   <li>
     <a href="/meta/">META</a> (Maven Environment for Turbine Applications) helps
