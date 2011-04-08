@@ -21,15 +21,15 @@
 <document>
 
   <properties>
-    <title>Turbine</title>
+    <title>Apache Turbine&#8482;</title>
   </properties>
 
 <body>
 
-<section name="Apache Turbine Web Application Framework">
+<section name="Apache Turbine&#8482; Web Application Framework">
 
   <p>
-    Turbine is a servlet based framework that allows experienced Java
+    Apache Turbine&#8482; is a servlet based framework that allows experienced Java
     developers to quickly build web applications. Turbine allows you
     to use personalize the web sites and to use user logins to restrict
     access to parts of your application.
@@ -143,5 +143,21 @@ quite a number of projects:
 </ul>
 </section>
 
+<section name="The Apache Software Foundation">
+<p>
+The <a href="http://www.apache.org">Apache Software Foundation</a> provides support for the 
+Apache community of open-source software projects. The Apache projects are defined by 
+collaborative consensus based processes, an open, pragmatic software license and a desire 
+to create high quality software that leads the way in its field.
+</p>
+<p> 
+Apache Turbine, Turbine, Apache, the Apache feather logo, and the Apache Turbine project logo
+are trademarks of The Apache Software Foundation.
+</p>
+<p>
+All other marks mentioned may be trademarks or registered trademarks of their respective 
+owners.
+</p>
+</section>
 </body>
 </document>
