@@ -18,9 +18,16 @@
  under the License.
 -->
 <!-- ========================================================================= -->
-<!-- Apache Turbine project logo.                                              -->
+<!-- Copyright (C) The Apache Software Foundation. All rights reserved.        -->
 <!--                                                                           -->
-<!-- @version $Id:$ -->
+<!-- This software is published under the terms of the Apache Software License -->
+<!-- version 1.1, a copy of which has been included with this distribution in  -->
+<!-- the LICENSE file.                                                         -->
+<!-- ========================================================================= -->
+<!-- ========================================================================= -->
+<!-- Test description here                                                     -->
+<!--                                                                           -->
+<!-- @version $Id: jakarta-logo.svg 327596 2005-10-21 22:26:33Z sebb $ -->
 <!-- ========================================================================= -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -37,8 +44,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.44"
    sodipodi:docname="turbine-project.svg"
-   sodipodi:docbase="S:\eclipse-workspace\turbine-site\xdocs\images"
-   inkscape:export-filename="S:\eclipse-workspace\turbine-site\xdocs\images\turbine-logo.png"
+   sodipodi:docbase="S:\eclipse-workspace\jakarta-turbine-site\xdocs\images"
+   inkscape:export-filename="S:\eclipse-workspace\jakarta-turbine-site\xdocs\images\turbine-logo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><metadata
    id="metadata595"><rdf:RDF><cc:Work
@@ -1350,7 +1357,7 @@
 </g><!-- Layer_x0020_1 -->
 </g><!-- translate and flip -->
 <g
-   id="turbine_text1"
+   id="jakarta_text1"
    style="font-family: &quot;Tahoma&quot;; font-size: 15px; font-weight: bold;">
 	<text
    x="114"
@@ -1361,17 +1368,17 @@
 
 </g>
 <g
-   id="turbine_text2"
+   id="jakarta_text2"
    style="font-family: &quot;Tahoma&quot;; font-size: 26px; font-weight: bold;">
 	<text
    x="150"
    y="23"
    id="text587"
-   style="text-anchor:start;fill:black">Apache Turbine Project</text>
+   style="text-anchor:start;fill:black">Apache Turbine&#8482; Project</text>
 
 </g>
 <g
-   id="turbine_text3"
+   id="jakarta_text3"
    style="font-family: &quot;Tahoma&quot;; font-size: 16px;">
 	<text
    x="190"
