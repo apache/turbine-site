@@ -31,21 +31,19 @@
       These are the current releases of the Turbine project.
     </p>
 
+    <subsection name="Turbine 4.0 Release Branch">
+    <ul>
+      <li><a href="turbine-4.0-M1/">Apache Turbine 4.0 Milestone 1</a></li>
+      <li><a href="development/turbine-4.0/">Apache Turbine 4.0-M2-SNAPSHOT</a> - Current 4.0 Development tree</li>
+    </ul>
+    </subsection>
+
     <subsection name="Turbine 2.3 Release Branch">
-
     <ul>
-      <li><a href="turbine-2.3.2/">Jakarta Turbine 2.3.2</a></li>
-      <li><a href="development/turbine-2.3/">Apache Turbine 2.3.3-b1</a> - Current 2.3 Development tree</li>
-    </ul>
-
-    </subsection>
-
-    <subsection name="Turbine 2.4 Release Branch">
-    <ul>
-      <li><a href="turbine-2.4-M1/">Jakarta Turbine 2.4 Milestone 1</a></li>
-      <li><a href="development/turbine-2.4/">Apache Turbine 2.4-dev</a> - Current 2.4 Development tree</li>
+      <li><a href="turbine-2.3.3/">Apache Turbine 2.3.3</a></li>
     </ul>
     </subsection>
+
     </section>
 
     <section name="Historic versions">
@@ -57,6 +55,7 @@
       <li><a href="turbine-2.2.0/">Jakarta Turbine 2.2</a></li>
       <li><a href="turbine-2.3/">Jakarta Turbine 2.3</a></li>
       <li><a href="turbine-2.3.1/">Jakarta Turbine 2.3.1</a></li>
+      <li><a href="turbine-2.3.2/">Jakarta Turbine 2.3.2</a></li>
     </ul>
     </section>
   </body>
