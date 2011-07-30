@@ -26,12 +26,14 @@
 
 <body>
 
+<!-- 
 <section name="Getting Started With Turbine">
   <p>
     Currently, the best way to get started with Turbine is to use the
     <a href="meta/">Maven Environment for Turbine Applications (M.E.T.A.)</a>.
   </p>
 </section>
+-->
 
 <section name="Binary And Source Distributions">
   <p>
@@ -69,7 +71,7 @@
   <p>
     Be sure and read the README.txt file for instructions on how to build Turbine.
     Turbine uses <a href="http://maven.apache.org/">Maven</a> as its
-    build system, and building is as simple as running 'maven package'
+    build system, and building is as simple as running 'mvn package'
     at the top of the source directory.
   </p>
 </section>
