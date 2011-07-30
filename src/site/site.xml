@@ -68,6 +68,7 @@
         <item name="Overview"        href="/turbine/index.html"/>
         <item name="Turbine 2.3.3"   href="/turbine/turbine-2.3.3/index.html"/>
         <item name="Turbine 2.4-M1"  href="/turbine/turbine-2.4-M1/index.html"/>
+        <item name="Turbine 4.0-M1"  href="/turbine/turbine-4.0-M1/index.html"/>
     </menu>
 
     <menu name="Turbine Development">

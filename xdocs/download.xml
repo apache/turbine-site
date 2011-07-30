@@ -68,8 +68,8 @@
 <section name="Building The Source">
   <p>
     Be sure and read the README.txt file for instructions on how to build Turbine.
-    Turbine uses <a href="http://maven.apache.org/maven-1.x/">Maven</a> as its
-    build system, and building is as simple as running 'maven' or 'maven jar:jar'
+    Turbine uses <a href="http://maven.apache.org/">Maven</a> as its
+    build system, and building is as simple as running 'maven package'
     at the top of the source directory.
   </p>
 </section>
