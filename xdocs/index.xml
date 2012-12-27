@@ -89,7 +89,7 @@
     <li>While <a href="turbine/development/turbine-4.0/">Turbine 4.0</a> is
     the shape of things to come. For production use
     we recommend that you stick with the 2.3.x release series. Turbine 4.0 uses
-    next generation technologies like an <a href="http://avalon.apache.org/">
+    different technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
     <a href="fulcrum/">Fulcrum</a> sub-project of Turbine (most of benefits of
     these enhancements are realized in the
@@ -114,18 +114,14 @@
     developed as part of Turbine, but now decoupled and usable in any environment
     that supports <a href="http://wiki.apache.org/excalibur/AvalonFramework">Avalon</a> components.
   </li>
-  <li>
-    <a href="/meta/">META</a> (Maven Environment for Turbine Applications) helps
-    you to write Turbine applications.
-  </li>
 </ul>
 </section>
 
 <section name="Turbine Alumni">
 
 <p>
- As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Jakarta Project</a>, Turbine has influenced
-quite a number of projects:
+ As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Jakarta Project</a>, 
+ Turbine has influenced quite a number of projects:
 </p>
 <ul>
   <li>

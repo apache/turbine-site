@@ -26,14 +26,14 @@
 
 <body>
 
-<!-- 
 <section name="Getting Started With Turbine">
   <p>
-    Currently, the best way to get started with Turbine is to use the
-    <a href="meta/">Maven Environment for Turbine Applications (M.E.T.A.)</a>.
+    The best way to get started with Turbine is to use the
+    Maven Archetypes. See the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+    in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
+    usage information.
   </p>
 </section>
--->
 
 <section name="Binary And Source Distributions">
   <p>

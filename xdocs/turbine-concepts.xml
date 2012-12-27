@@ -31,13 +31,15 @@
 <p>Looking for a modern web application architecture for your Java
 development? Turbine is an open source server-side Java framework from
 the Apache Software Foundation. Any servlet container supporting Servlet
-Specification 2.2 or better can be used to run your Turbine
+Specification 2.4 or better can be used to run your Turbine
 application.</p>
 
-<p>We offer an easy-to use development environment using a <a
-href="http://maven.apache.org/">Maven</a>-based <a
-href="meta/">plugin</a> to quickly start developing Turbine
-applications.</p>
+<p>We offer an easy-to use development environment using some <a
+href="http://maven.apache.org/">Maven</a>-Archetypes to quickly 
+start developing Turbine applications. See the 
+<a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
+usage information.</p>
 
 <p>Of course, the biggest advantage of Turbine is that it is free, and
 all of the source code is available to you, the application

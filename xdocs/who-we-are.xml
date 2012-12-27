@@ -151,20 +151,6 @@ common mistakes and as a community we all grow together.
             <td>Java Developer</td>
         </tr>
         <tr class="a">
-            <td>J&#x00fc;rgen Hoffmann</td>
-            <td>hoffmann</td>
-            <td>hoffmann@apache.org</td>
-            <td>ByteAction GmbH</td>
-            <td>Java Developer</td>
-        </tr>
-        <tr class="b">
-            <td>Will Glass-Husain</td>
-            <td>wglass</td>
-            <td>wglass@forio.com</td>
-            <td>Forio Business Simulations</td>
-            <td>Java Developer</td>
-        </tr>
-        <tr class="a">
             <td>Siegfried Goeschl</td>
             <td>sgoeschl</td>
             <td>sgoeschl@apache.org</td>
@@ -172,17 +158,38 @@ common mistakes and as a community we all grow together.
             <td>Java Developer</td>
         </tr>
         <tr class="b">
+            <td>J&#x00fc;rgen Hoffmann</td>
+            <td>hoffmann</td>
+            <td>hoffmann@apache.org</td>
+            <td>ByteAction GmbH</td>
+            <td>Java Developer</td>
+        </tr>
+        <tr class="a">
+            <td>Will Glass-Husain</td>
+            <td>wglass</td>
+            <td>wglass@forio.com</td>
+            <td>Forio Business Simulations</td>
+            <td>Java Developer</td>
+        </tr>
+        <tr class="b">
+            <td>Georg Kallidis</td>
+            <td>gk</td>
+            <td>gk@apache.org</td>
+            <td></td>
+            <td>Java Developer</td>
+        </tr>
+        <tr class="a">
             <td>Ludwig Magnusson</td>
             <td>ludwig</td>
             <td>ludwig@apache.org</td>
             <td></td>
             <td>Java Developer</td>
         </tr>
-        <tr class="a">
+        <tr class="b">
             <td>Thomas Vandahl</td>
             <td>tv</td>
             <td>tv@apache.org</td>
-            <td>TeWiSoft GmbH</td>
+            <td></td>
             <td>Java Developer</td>
         </tr>
     </tbody>

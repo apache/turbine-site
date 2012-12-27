@@ -35,13 +35,7 @@
     <links>
       <item name="Turbine Home"            href="/turbine/"/>
       <item name="Fulcrum"                 href="/fulcrum/"/>
-      <item name="META"                    href="/meta/"/>
     </links>
-
-    <!-- menu name="Events">
-       <item name="ApacheCon US 2005"  href="http://apachecon.com/2005/US/" alt="ApacheCon US 2005"
-             img="http://apache.org/images/ac2005us_blue_184x90.jpg" width="184" height="90"  />
-     </menu -->
 
     <menu name="General Information">
         <item name="Overview"              href="/index.html"/>
@@ -56,7 +50,8 @@
         <item name="Example Apps"          href="/examples.html"/>
     </menu>
 
-    <menu name="Turbine Wiki Shortcuts">
+    <menu name="Shortcuts to Turbine Documentation">
+        <item name="Turbine Blog"                     href="https://blogs.apache.org/turbine/"/>
         <item name="Turbine Wiki Home"                href="http://wiki.apache.org/turbine/"/>
         <item name="Frequently Asked Questions (FAQ)" href="http://wiki.apache.org/turbine/Turbine2/FAQ"/>
         <item name="Tutorial"                         href="http://wiki.apache.org/turbine/Turbine2/Tutorial"/>
@@ -79,12 +74,12 @@
 
     <menu name="Turbine Sub Projects">
         <item name="Fulcrum"               href="/fulcrum/index.html"/>
-        <item name="META"                  href="/meta/index.html"/>
     </menu>
 
     <menu name="Closed projects">
         <item name="Stratum"               href="/stratum/index.html"/>
         <item name="TDK"                   href="/tdk/index.html"/>
+        <item name="META"                  href="/meta/index.html"/>
     </menu>
 
     <menu name="Community">

@@ -27,6 +27,24 @@
 <body>
 
 <section name="News And Status">
+  <h4>18 Nov 2012 - Release of Turbine Maven Archetypes</h4>
+  <p>
+    The Turbine Team announces the release of two Maven archetypes for the 
+    creation of Apache Turbine web applications. They have been created to
+    take the hassle out of the process of creating a new working Turbine 
+    project. See the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+    in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
+    usage information.
+  </p>
+
+  <h4>18 Nov 2012 - Release of Turbine Parent POM 2</h4>
+  <p>
+    The Turbine Team announces the release of a common Parent POM for the 
+    Apache Turbine and Fulcrum project.
+    Despite it's version 2 this is the first official release. This POM is
+    supposed to be used as parent for all modules in the Apache Turbine Project.
+  </p>
+
   <h4>23 Jun 2011 - Release of Turbine 4.0-M1 Milestone</h4>
   <p>
     The Turbine Team is proud to announce the 4.0-M1 release of the Turbine Framework.
