@@ -22,14 +22,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache</groupId>
-    <artifactId>apache</artifactId>
-    <version>7</version>
+  	<artifactId>turbine-parent</artifactId>
+  	<groupId>org.apache.turbine</groupId>
+  	<version>3</version>
   </parent>
 
-  <groupId>turbine-site</groupId>
+  <groupId>org.apache.turbine</groupId>
   <artifactId>turbine-site</artifactId>
-  <version>1.0</version>
+  <version>4.0</version>
+  <packaging>pom</packaging>
   <name>Turbine</name>
   <description>Turbine is a servlet based framework that allows experienced Java developers
     to quickly build secure web applications. Parts of Turbine can also be used
@@ -158,10 +159,65 @@
       <url>scpexe://people.apache.org/www/turbine.apache.org/</url>
     </site>
   </distributionManagement>
+  
+  <build>
+    <plugins>
+      <plugin> <!-- Thanks to Apache Commons -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <version>1.0-beta-2</version>
+        <configuration>
+          <content>${project.reporting.outputDirectory}</content>
+          <pubScmUrl>scm:svn:${turbine.scmPubUrl}</pubScmUrl>
+          <checkoutDirectory>${turbine.scmPubCheckoutDirectory}</checkoutDirectory>
+          <tryUpdate>true</tryUpdate>
+          <skipDeletedFiles>true</skipDeletedFiles>
+          <ignorePathsToDelete>
+            <ignorePathToDelete>dtd**</ignorePathToDelete>
+            <ignorePathToDelete>fulcrum**</ignorePathToDelete>
+            <ignorePathToDelete>meta**</ignorePathToDelete>
+            <ignorePathToDelete>stratum**</ignorePathToDelete>
+            <ignorePathToDelete>tdk**</ignorePathToDelete>
+            <ignorePathToDelete>turbine**</ignorePathToDelete>
+          </ignorePathsToDelete>
+        </configuration>
+        <executions>
+          <execution>
+            <id>scm-publish</id>
+            <phase>site-deploy</phase><!-- deploy site with maven-scm-publish-plugin -->
+            <goals>
+              <goal>publish-scm</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
   <reporting>
     <plugins>
       <plugin>
-        <artifactId>maven-changelog-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>project-team</report>
+              <report>mailing-list</report>
+              <report>cim</report>
+              <report>issue-tracking</report>
+              <report>license</report>
+              <report>scm</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>${turbine.surefire.version}</version>
+        <configuration>
+         <skipSurefireReport>true</skipSurefireReport>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-changes-plugin</artifactId>
@@ -171,4 +227,10 @@
       </plugin>
     </plugins>
   </reporting>
+  
+  <properties>
+    <turbine.site.path></turbine.site.path>
+    <turbine.scmPubCheckoutDirectory>${turbine.site.cache}/site</turbine.scmPubCheckoutDirectory>
+  </properties>
+
 </project>
