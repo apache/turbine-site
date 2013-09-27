@@ -43,6 +43,14 @@
   </p>
 </section>
 
+<section name="Getting Archived Releases">
+  <p>
+    If you look for older releases of Turbine, both, binaries and source, 
+    you can get them from the
+    <a href="http://archive.apache.org/dist/turbine/">Apache Archive</a>.
+  </p>
+</section>
+
 <!--
 <section name="Getting Source snapshots">
   <p>
@@ -64,7 +72,7 @@
     of each Turbine sub-project.
 
     </p>
-    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/core/branches/TURBINE_2_3_BRANCH/]]></source>
+    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/core/trunk/]]></source>
 </section>
 
 <section name="Building The Source">

@@ -32,10 +32,6 @@
     <version position="left" />
     
     <body>
-    <links>
-      <item name="Turbine Home"            href="/turbine/"/>
-      <item name="Fulcrum"                 href="/fulcrum/"/>
-    </links>
 
     <menu name="General Information">
         <item name="Overview"              href="/index.html"/>

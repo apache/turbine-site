@@ -253,25 +253,25 @@ X/Emacs users might appreciate this in their .emacs file.
 </p>
 
 <source><![CDATA[
-(defun apache-jakarta-mode ()
-  "The Java mode specialization for Apache Jakarta projects."
-  (if (not (assoc "apache-jakarta" c-style-alist))
-      ;; Define the Apache Jakarta cc-mode style.
-      (c-add-style "apache-jakarta" '("java" (indent-tabs-mode . nil))))
+(defun apache-turbine-mode ()
+  "The Java mode specialization for Apache Turbine projects."
+  (if (not (assoc "apache-turbine" c-style-alist))
+      ;; Define the Apache Turbine cc-mode style.
+      (c-add-style "apache-turbine" '("java" (indent-tabs-mode . nil))))
 
-  (c-set-style "apache-jakarta")
+  (c-set-style "apache-turbine")
   (c-set-offset 'substatement-open 0 nil)
-  (setq mode-name "Apache Jakarta")
+  (setq mode-name "Apache Turbine")
 
   ;; Turn on syntax highlighting when X is running.
   (if (boundp 'window-system)
       (progn (setq font-lock-support-mode 'lazy-lock-mode)
              (font-lock-mode t))))
 
-;; Activate Jakarta mode.
+;; Activate Turbine mode.
 (if (fboundp 'jde-mode)
-    (add-hook 'jde-mode-hook 'apache-jakarta-mode)
-  (add-hook 'java-mode-hook 'apache-jakarta-mode))
+    (add-hook 'jde-mode-hook 'apache-turbine-mode)
+  (add-hook 'java-mode-hook 'apache-turbine-mode))
 ]]></source>
 
 <p>

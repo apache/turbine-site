@@ -145,10 +145,10 @@
       <li>
 <p>
           <strong>Build The Site:</strong>
-          The documentation is built using <a href="http://maven.apache.org/maven-1.x/">Maven</a>,
+          The documentation is built using <a href="http://maven.apache.org/">Maven</a>,
           with the following command:
 </p>
-        <source><![CDATA[maven site:generate]]></source>
+        <source><![CDATA[mvn site]]></source>
 
 <p>
           Afterwards, you should get something like:
@@ -157,15 +157,17 @@
 Total time:  20 seconds]]></source>
 
 <p>
-          You will find the built HTML in $PATH_TO_MODULE/target/docs.
+          You will find the built HTML in <code>$PATH_TO_MODULE/target/site</code>.
 </p>
       </li>
 
       <li>
         <strong>Make Your Changes:</strong>
-        The docs are written using the Anakia Xdoc format, which you can learn about <a href="http://jakarta.apache.org/site/jakarta-site-tags.html">here</a>.
-        The source files are found in the $PATH_TO_MODULE/xdocs directory, each xml file corresponding to the generated html file.
-        Menu information is found in the navigation.xml files.
+        The docs are written using the Anakia Xdoc format, which you can learn about 
+        <a href="http://maven.apache.org/doxia/references/xdoc-format.html">here</a>.
+        The source files are found in the <code>$PATH_TO_MODULE/xdocs</code> directory, 
+        each xml file corresponding to the generated html file.
+        Menu information is found in the <code>src/site/site.xml</code> files.
       </li>
 
       <li>
