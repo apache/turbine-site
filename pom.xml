@@ -142,24 +142,24 @@
       </roles>
       <timezone>2</timezone>
     </developer>
+    <developer>
+      <name>Thomas Vandahl</name>
+      <id>tv</id>
+      <email>tv@apache.org</email>
+      <organization />
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>1</timezone>
+    </developer>
   </developers>
-  <issueManagement>
-    <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/TRB</url>
-  </issueManagement>
+
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/turbine/site</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/turbine/site</developerConnection>
     <url>http://svn.apache.org/viewcvs/turbine/site/</url>
   </scm>
-  <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <name>Apache Turbine Site</name>
-      <url>scpexe://people.apache.org/www/turbine.apache.org/</url>
-    </site>
-  </distributionManagement>
-  
+
   <build>
     <plugins>
       <plugin> <!-- Thanks to Apache Commons -->
@@ -217,12 +217,6 @@
         <version>${turbine.surefire.version}</version>
         <configuration>
          <skipSurefireReport>true</skipSurefireReport>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-changes-plugin</artifactId>
-        <configuration>
-          <xmlPath>${basedir}/xdocs/changes.xml</xmlPath>
         </configuration>
       </plugin>
     </plugins>
