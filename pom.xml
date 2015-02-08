@@ -157,7 +157,7 @@
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/turbine/site</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/turbine/site</developerConnection>
-    <url>http://svn.apache.org/viewcvs/turbine/site/</url>
+    <url>http://svn.apache.org/viewvc/turbine/site/</url>
   </scm>
 
   <build>
