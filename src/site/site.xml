@@ -58,13 +58,10 @@
     <menu name="Turbine Releases">
         <item name="Overview"        href="/turbine/index.html"/>
         <item name="Turbine 2.3.3"   href="/turbine/turbine-2.3.3/index.html"/>
-        <item name="Turbine 2.4-M1"  href="/turbine/turbine-2.4-M1/index.html"/>
-        <item name="Turbine 4.0-M1"  href="/turbine/turbine-4.0-M1/index.html"/>
+        <item name="Turbine 4.0-M2"  href="/turbine/turbine-4.0-M2/index.html"/>
     </menu>
 
     <menu name="Turbine Development">
-        <item name="Overview"        href="/turbine/index.html"/>
-        <item name="Turbine 2.3"     href="/turbine/development/turbine-2.3/index.html"/>
         <item name="Turbine 4.0"     href="/turbine/development/turbine-4.0/index.html"/>
     </menu>
 

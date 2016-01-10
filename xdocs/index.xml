@@ -87,7 +87,7 @@
     <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-2.3.3/">Apache Mirrors</a></li>
 
     <li>While <a href="turbine/development/turbine-4.0/">Turbine 4.0</a> is
-    the shape of things to come. For production use
+    the shape of things to come, for production use
     we recommend that you stick with the 2.3.x release series. Turbine 4.0 uses
     different technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
@@ -98,9 +98,9 @@
     introduction of a pipeline concept that allows you to define via an XML file
     all the stages for processing a request.
     You are encouraged to try out the current 
-    <a href="turbine/turbine-4.0-M1/">Milestone Release 4.0-M1</a>.
+    <a href="turbine/turbine-4.0-M2/">Milestone Release 4.0-M2</a>.
     Download it from one of the 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0-M1/">Apache Mirrors</a></li>
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0-M2/">Apache Mirrors</a></li>
   </ul>
   </p>
 </section>

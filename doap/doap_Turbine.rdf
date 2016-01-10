@@ -41,6 +41,20 @@ Turbine is developed in an open, participatory environment and released under th
         <revision>2.3.3</revision>
       </Version>
     </release>
+    <release>
+      <Version>
+        <name>Apache Turbine</name>
+        <created>2011-06-23</created>
+        <revision>4.0-M1</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Apache Turbine</name>
+        <created>2015-12-22</created>
+        <revision>4.0-M2</revision>
+      </Version>
+    </release>
     <repository>
       <SVNRepository>
         <location rdf:resource="http://svn.apache.org/repos/asf/turbine/core/trunk/"/>

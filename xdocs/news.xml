@@ -27,6 +27,14 @@
 <body>
 
 <section name="News And Status">
+  <h4>22 Dec 2015 - Release of Turbine 4.0-M2 Milestone</h4>
+  <p>
+    The Turbine Team is proud to announce the 4.0-M2 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-4.0-M2/changes-report.html">what's new.</a>
+  </p>
+
   <h4>18 Nov 2012 - Release of Turbine Maven Archetypes</h4>
   <p>
     The Turbine Team announces the release of two Maven archetypes for the 
