@@ -52,13 +52,14 @@
         <item name="Frequently Asked Questions (FAQ)" href="http://wiki.apache.org/turbine/Turbine2/FAQ"/>
         <item name="Tutorial"                         href="http://wiki.apache.org/turbine/Turbine2/Tutorial"/>
         <item name="User's Guide"                     href="http://wiki.apache.org/turbine/Turbine2/UsersGuide"/>
-        <item name="Development"                      href="http://wiki.apache.org/turbine/Turbine2/Development"/>
+        <item name="Development"                      href="https://wiki.apache.org/turbine/Turbine5"/>
     </menu>
 
     <menu name="Turbine Releases">
         <item name="Overview"        href="/turbine/index.html"/>
         <item name="Turbine 2.3.3"   href="/turbine/turbine-2.3.3/index.html"/>
         <item name="Turbine 4.0-M2"  href="/turbine/turbine-4.0-M2/index.html"/>
+        <item name="Turbine 4.0"  href="/turbine/turbine-4.0/index.html"/>
     </menu>
 
     <menu name="Turbine Development">

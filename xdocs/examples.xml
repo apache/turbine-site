@@ -28,6 +28,14 @@
 
 <section name="Example Apps">
 These are some example apps you can download to learn how to work with Turbine.
+
+<subsection name="Turbine Webapp">
+	<p>With 
+	<a href="https://svn.apache.org/repos/asf/turbine/maven/archetypes/trunk/turbine-webapp-4.0">Turbine Webapp Archetype</a> one can build fast an example app that demonstrates how to use Turbine. It also demonstrates Torque integration, Fulcrum Security and Fulcrum Intake, Fulcrum Json.
+  Find more information in the <a href="https://blogs.apache.org/turbine/">blog</a> in the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog entry "Maven archetypes for Apache Turbine applications - easier startup with Turbine"</a>.
+	</p>
+</subsection>
+
 <subsection name="Antelope">
 	<p>
 	<a href="http://zebra.tigris.org">Antelope</a> is an example app that demonstrates how

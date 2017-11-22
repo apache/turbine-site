@@ -8,6 +8,13 @@ into .html files using Maven.
 
 <http://maven.apache.org/>
 
+This is the wrapper site for the released Turbine builds. New/Changed Turbine builds should be added/updated here: 
+- xdocs/index.xml
+- xdocs/news.xml
+- src/site/site.xml
+- doap/doap_Turbine.rdf
+
+
 Once you have the site checked out locally, cd into your
 turbine-site directory and execute:
 
