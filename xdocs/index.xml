@@ -95,11 +95,8 @@
     these enhancements are realized in the
     <a href="turbine/turbine-2.3.3/">2.3.3</a> release). One significant
     change in 4.0 is the introduction of a pipeline concept that allows you to define
-    via an XML file all the stages for processing a request.
-    It is based on the 
-    <a href="turbine/turbine-4.0-M2/">Milestone Release 4.0-M2</a>, which you may
-    download from one of the 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0-M2/">Apache Mirrors</a></li>
+    via <strong>XML</strong> all the stages for processing a request.
+    </li>
     
   <li><a href="turbine/development/turbine-4.1/">Turbine 4.1</a> is
     the shape of things to come...
@@ -113,7 +110,7 @@
 <p></p>
 <ul>
   <li>
-    <a href="/fulcrum/">Fulcrum</a> is by default in use since Turbine 4.x. It is a collection of services originally
+    <a href="/fulcrum/">Fulcrum</a> components are by default in use since Turbine 4.x. It is a collection of services originally
     developed as part of Turbine, but now decoupled and usable in any environment
     that supports <a href="http://wiki.apache.org/excalibur/AvalonFramework">Avalon</a> components. 
   </li>
@@ -123,7 +120,7 @@
 <section name="Turbine Alumni">
 
 <p>
- As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Jakarta Project</a>, 
+ As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Apache Jakarta Project</a>, 
  Turbine has influenced quite a number of projects:
 </p>
 <ul>

@@ -32,6 +32,7 @@
     <version position="left" />
     
     <body>
+   
 
     <menu name="General Information">
         <item name="Overview"              href="/index.html"/>
@@ -53,6 +54,10 @@
         <item name="Tutorial"                         href="http://wiki.apache.org/turbine/Turbine2/Tutorial"/>
         <item name="User's Guide"                     href="http://wiki.apache.org/turbine/Turbine2/UsersGuide"/>
         <item name="Development"                      href="https://wiki.apache.org/turbine/Turbine5"/>
+    </menu>
+    
+    <menu name="Events">
+      <item name="" title="Apache Conferences" href="https://www.apache.org/events/current-event.html" img="https://www.apache.org/events/current-event-125x125.png" target="_blank"/>
     </menu>
 
     <menu name="Turbine Releases">

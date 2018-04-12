@@ -34,3 +34,5 @@ To deploy the site execute:
 mvn site-deploy
 To do this you need an account on the people.apache.org machine!!
 
+- after deployment check/cleanup local deployment path as defined in turbine.site.cache. By default it's in user.home/turbine-sites/site.
+
