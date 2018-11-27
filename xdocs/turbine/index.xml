@@ -30,13 +30,19 @@
     <p>
       These are the current releases of the Turbine project.
     </p>
-
-    <subsection name="Turbine 4.0 Release Branch">
+    
+    <subsection name="Turbine 5.0 Release Branch">
     <ul>
-      <li><a href="turbine-4.0/">Apache Turbine 4.0</a> - Current 4.0 Development tree</li>
+      <li><a href="development/turbine-5.0/">Apache Turbine 5.0-SNAPSHOT</a> - Current 5.0 Development tree</li>
+    </ul>
+    </subsection>
+
+    <subsection name="Turbine 4.x Release Branch">
+    <ul>
+      <li><a href="turbine-4.0/">Apache Turbine 4.0.1</a> - Current Stable 4.0.1</li>
       <li><a href="turbine-4.0-M2/">Apache Turbine 4.0 Milestone 2</a></li>
       <li><a href="turbine-4.0-M1/">Apache Turbine 4.0 Milestone 1</a></li>
-      <li><a href="development/turbine-5.0/">Apache Turbine 5.0-SNAPSHOT</a> - Current 5.0 Development tree</li>
+      <li><a href="development/turbine-4.1-SNAPSHOT/">Apache Turbine 4.1-SNAPSHOT</a> - 4.1 Development tree (dormant)</li>
     </ul>
     </subsection>
 
