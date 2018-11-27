@@ -258,7 +258,7 @@ href="http://velocity.apache.org/engine/">Velocity</a>.
 </subsection>
 </section>
 
-<section>Getting Started</section>
+<section name="Getting Started">
 
 <p>
 Turbine has a learning curve for new developers, but don't let that
@@ -294,6 +294,8 @@ should subscribe to one of the mailing lists.
 </p>
 
 <p>The Turbine development team hopes, that you have fun working with Turbine!</p>
+
+</section>
 
 <section name="Further Reading">
 
