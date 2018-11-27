@@ -98,8 +98,8 @@
     via <strong>XML</strong> all the stages for processing a request.
     </li>
     
-  <li><a href="turbine/development/turbine-4.1/">Turbine 4.1</a> is
-    the shape of things to come...
+  <li><strong><a href="turbine/development/turbine-5.0/">Turbine 5.0</a></strong> is
+    the shape of things to come, which is currently in development: Servlet 3.1, Java 8, Log4J2, Velocity 2 ...
     </li>
   </ul>
   </p>

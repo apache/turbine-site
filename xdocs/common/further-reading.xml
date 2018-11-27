@@ -36,13 +36,13 @@
 </p>
 
 <p>
-  <a href="http://portals.apache.org/jetspeed-1/">Jetspeed</a> is an open source
-  portal engine built on top of the Turbine web application framework.  Use
-  Jetspeed to develop a ready-to-go portal solution with open technology.
+  <a href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a> is an open source
+  portal engine built on top of the Turbine web application framework.  It was used
+  to develop a ready-to-go portal solution with open technology.
 </p>
 
 <p>
-  Turbine uses <a href="http://logging.apache.org/log4j/">Log4j</a> for a
+  Turbine uses <a href="https://logging.apache.org/log4j/2.x/">Log4j2</a> for a
   logging framework.  No more commenting System.out.println()'s in your code!
 </p>
 

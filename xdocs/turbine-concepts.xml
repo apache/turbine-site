@@ -34,6 +34,11 @@ the Apache Software Foundation. Any servlet container supporting Servlet
 Specification 2.4 or better can be used to run your Turbine
 application.</p>
 
+<p>We offer an easy-to use development environment using some <a href="http://maven.apache.org/">Maven</a>-Archetypes to quickly 
+start developing Turbine applications. See the 
+<a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for usage information or <a href="https://github.com/apache/turbine-archetypes/">Turbine Archetype Readme on GitHub</a>.. If you want use Docker as developing environment, checkout <a href="https://github.com/apache/turbine-archetypes/tree/docker"> docker branch</a>, which is currently in experimental stage.</p>
+
 <p>We offer an easy-to use development environment using some <a
 href="http://maven.apache.org/">Maven</a>-Archetypes to quickly 
 start developing Turbine applications. See the 
@@ -55,9 +60,9 @@ developer.</p>
      href="http://www.hibernate.org/">Hibernate</a> are also
      supported.</li>
  <li>HTML Form Validation using the Turbine provided &quot;Intake&quot;-Service.</li>
- <li>Logging - Turbine uses <a href="http://commons.apache.org/logging/">Commons Logging</a> and supports a wide range of logging
+ <li>Logging - Turbine 5.0 uses <a href="https://logging.apache.org/log4j/2.x/">Log4J2</a> with activated <a href="https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/index.html">SLF4J-Binding</a>. Internal <a href="http://commons.apache.org/logging/">Commons Logging</a> is propagated using <a href="https://www.slf4j.org/legacy.html">jcl-over-slf4j</a>. Turbine 4.x and previous versions supported a wide range of logging
 frameworks like <a href="http://logging.apache.org/log4j/docs/">Log4J</a>, jdk14 or simple file logging</li>
- <li>Service based framework, using <a href="http://avalon.apache.org/">Avalon</a> compatible components in Turbine 2.4 and beyond.</li>
+ <li>Service based framework, using <a href="http://avalon.apache.org/">Avalon</a> compatible components in Turbine 2.4 and beyond. Although this framework is stable it's not yet maintained anymore, and we may change it in the near future.</li>
 </ul>
 
 
@@ -132,10 +137,9 @@ any changes.
 </p>
 
 <p>
-Turbine comes with a number of Services. These are bundled when using
-<a href="turbine-2.3/">Turbine-2.3</a> or available separately as <a
-href="http://avalon.apache.org/">Avalon</a> components from the <a
-href="fulcrum/">Fulcrum</a> project.
+Turbine comes with a number of Services. These are bundled when using greater
+<a href="turbine-2.3/">Turbine-2.3</a>. Find out more about <a
+href="fulcrum/">Fulcrum</a> project!
 </p>
 
 <p>Here is a brief overview of the some of the Services:</p>
@@ -148,13 +152,15 @@ href="fulcrum/">Fulcrum</a> project.
      XML files.</li>
  <li>UploadService - Manages file uploads from HTML widgets.</li>
 
- <li>XSLTService - Transforms XML documents with XSLT
-     stylesheets. This service can cache compiled stylesheets for extra
-     performance.</li>
-
  <li>SecurityService - Manages users and permissions for
      Turbine. Turbine has a user, group, role, permission system which uses
      a database layer or LDAP as its backend.</li>
+     
+ <li>JSONService - Provides a layer to Jackson 2 or Gson JSON bindings, which might be used for filtering or application wide settings.</li>
+  
+ <li>XSLTService - Transforms XML documents with XSLT
+     stylesheets. This service can cache compiled stylesheets for extra
+     performance.</li>
 </ul>
 
 </section>
