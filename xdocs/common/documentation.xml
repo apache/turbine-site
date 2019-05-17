@@ -58,14 +58,14 @@
         <ul>
           <li>Based on a simple sample application</li>
           <li>Should most likely involve META</li>
-          <li>Currently in the wiki at <a href="http://wiki.apache.org/turbine/Turbine2/Tutorial">Turbine2/Tutorial</a></li>
+          <li>Currently in the wiki at <a href="https://cwiki.apache.org/confluence/display/TURBINE/Turbine2+Tutorial">Turbine2/Tutorial</a></li>
           <li>When stable, move it to xdoc and prepare a release</li>
         </ul>
       </li>
       <li>
         <b>Complete User's Guide</b>
         <ul>
-        <li>Currently in the wiki at <a href="http://wiki.apache.org/turbine/Turbine2/UsersGuide">Turbine2/UsersGuide</a></li>
+        <li>Currently in the wiki at <a href="https://cwiki.apache.org/confluence/display/TURBINE/Turbine2+UsersGuide">Turbine2/UsersGuide</a></li>
         <li>Eventually in Xdoc, Forrest, or some other format</li>
         </ul>
       </li>
@@ -81,7 +81,7 @@
         <ul>
           <li>Future Features and Enhancements</li>
           <li>The future of Fulcrum</li>
-          <li>Currently in the wiki at <a href="http://wiki.apache.org/turbine/Turbine2/Development">Turbine2/Development</a></li>
+          <li>Currently in the wiki at <a href="https://cwiki.apache.org/confluence/display/TURBINE/Turbine2+Development">Turbine2/Development</a></li>
         </ul>
       </li>
 </ul>

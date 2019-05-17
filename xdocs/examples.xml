@@ -27,24 +27,24 @@
 <body>
 
 <section name="Example Apps">
-These are some example apps you can download to learn how to work with Turbine.
+These are example apps you can download to learn how to work with Turbine.
 
 <subsection name="Turbine Webapp">
 	<p>With 
-	<a href="https://svn.apache.org/repos/asf/turbine/maven/archetypes/trunk/turbine-webapp-4.0">Turbine Webapp Archetype</a> one can build fast an example app that demonstrates how to use Turbine. It also demonstrates Torque integration, Fulcrum Security and Fulcrum Intake, Fulcrum Json.
+	<a href="https://gitbox.apache.org/repos/asf/turbine-archetypes.git">Turbine Webapp Archetype on Gitbox</a> (<a href="https://github.com/apache/turbine-archetypes">on GitHub</a>) one can build fast an example app that demonstrates how to use Turbine. It also demonstrates Torque integration, Fulcrum Security and Fulcrum Intake, Fulcrum Json.
   Find more information in the <a href="https://blogs.apache.org/turbine/">blog</a> in the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog entry "Maven archetypes for Apache Turbine applications - easier startup with Turbine"</a>.
 	</p>
 </subsection>
 
 <subsection name="Antelope">
-	<p>
+	<p>(TODO: remove or update)
 	<a href="http://zebra.tigris.org">Antelope</a> is an example app that demonstrates how
 	to use the Zebra workflow engine with Turbine.  It also demonstrates Hibernate integration,
 	Fulcrum Security, and a form processing engine similar to Intake.
 	</p>
 </subsection>
 <subsection name="OSWorkflow Example">
-	<p>
+	<p>TODO: remove or update)
 	<a href="http://turbine.apache.org/fulcrum/fulcrum-osworkflow-example/index.html">This</a>
 	example app shows how to integrate the <a href="http://www.opensymphony.com/">OSWorkflow</a> engine
 	into Turbine.  You can click through the various screens following the progress of your workflow.
