@@ -78,13 +78,11 @@
     Turbine comes in two shapes which both have their advantages:
 
   <ul>
-    <li><strong><a href="turbine/turbine-2.3.3/">Turbine 2.3.3</a></strong> is 
-    the version you should use when migrating from an older version of
-    Turbine.  The <a href="turbine/development/turbine-2.3/">2.3 branch</a>
-    of Turbine has been switched to maintenance mode, however. 
-    You can download Turbine 2.3.3 from one of the 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-2.3.3/">Apache Mirrors</a></li>
-
+    <li><strong><a href="turbine/development/turbine-5.0/">Turbine 5.0</a></strong> is
+    the current development master using Servlet 3.1, Java 8, Log4J2, Velocity 2.  It is already used in some live applications,
+     download it (soon) from one of the <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-5.0/">Apache Mirrors</a>.
+    </li>
+   
     <li><strong><a href="turbine/turbine-4.0/">Turbine 4.0</a></strong> should be the used, if starting a project based 
     on a release version of the Turbine framework. 
     Download it from one of the 
@@ -98,9 +96,13 @@
     via <strong>XML</strong> all the stages for processing a request.
     </li>
     
-  <li><strong><a href="turbine/development/turbine-5.0/">Turbine 5.0</a></strong> is
-    the shape of things to come, which is currently in development: Servlet 3.1, Java 8, Log4J2, Velocity 2 ...
-    </li>
+    <li><strong><a href="turbine/turbine-2.3.3/">Turbine 2.3.3</a></strong> is 
+    the version you should use when migrating from an older version of
+    Turbine.  The <a href="turbine/development/turbine-2.3/">2.3 branch</a>
+    of Turbine has been switched to maintenance mode, however. 
+    You can download Turbine 2.3.3 from one of the 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-2.3.3/">Apache Mirrors</a></li>
+    
   </ul>
   </p>
 </section>

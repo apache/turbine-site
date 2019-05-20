@@ -31,7 +31,7 @@
 <p>
 <a href="https://cwiki.apache.org/confluence/display/TURBINE/">
 https://cwiki.apache.org/confluence/display/TURBINE/
-<+a>
+</a>
 </p>
 
 <p>
@@ -39,7 +39,7 @@ The Turbine community is using a wiki to develop better documentation for Turbin
 Wiki's make it easy for people to contribute and improve recorded knowledge.
 Everybody is encouraged to contribute to the wiki project documentation as they
 progress as Turbine users.  If you are new to wiki's, you can introduce yourself
-to them by browsing the first one at <a href="http://c2.com/cgi/wiki">http://c2.com/cgi/wiki</a>.
+to them by browsing the first one at <a href="https://cwiki.apache.org/confluence/display/INFRA/Cwiki">https://cwiki.apache.org/confluence/display/INFRA/Cwiki</a>.
 </p>
 
 </section>

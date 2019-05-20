@@ -394,7 +394,10 @@ that all you need to do is get an instance of the database class, get a
 connection and go. There is no need to pass around a Connection object. Turbine
 comes with pool implementations for many of the most popular databases. Creating
 your own is quite simple as well, all you need to do is look at the existing
-code and create your own. If you need help or want someone to create one for
+code and create your own. By default <a href="https://db.apache.org/torque/torque-4.0/index.html">Torque</a> 
+is used as ORM-Mapper, find more info 
+<a href="https://db.apache.org/torque/torque-4.0/documentation/orm-reference/index.html">here</a>.
+If you need help or want someone to create one for
 your database, simply ask on the mailing list.
 </p>
 
@@ -408,7 +411,7 @@ good example of this methodology in use.
 </p>
 
 <p>
-The ParameterParser class takes all of the GET/POST/PATH_INFO data and parses it
+The <strong>ParameterParser</strong> class takes all of the GET/POST/PATH_INFO data and parses it
 into a hashtable where it can be easily retrieved in a number of forms with the
 provided get* methods. This is how you can have access to form data that has
 been posted by a users web browser.
@@ -420,12 +423,6 @@ Each portion of a URI can be defined in order to produce a custom URI that also
 includes the session tracking information if it exists. It is highly recommended
 that you use this class for generating all of your URI's for your application
 because it will allow you to easily add global functionality to your system.
-</p>
-
-<p>
-The DateSelector class generates Html popup menus for month/day/year. The beauty
-of this class is that you can provide a date for it to start with and it will
-automaticially generate the Html popups with that date.
 </p>
 
 <p>
