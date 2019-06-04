@@ -27,6 +27,14 @@
 <body>
 
 <section name="News And Status">
+  <h4>28 May 2019 - Release of Turbine 5.0</h4>
+  <p>
+    The Turbine Team is proud to announce the 5.0 release of the Turbine Framework. This is a main release.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-5.0/changes-report.html">what's new.</a>
+  </p>
+  
   <h4>05 Mar 2018 - Release of Turbine 4.0.1</h4>
   <p>
     The Turbine Team is proud to announce the 4.0.1 release of the Turbine Framework. This is mainly a bugfix release.

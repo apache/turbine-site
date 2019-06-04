@@ -62,11 +62,18 @@ Turbine is developed in an open, participatory environment and released under th
         <revision>4.0</revision>
       </Version>
     </release>
-     <release>
+    <release>
       <Version>
         <name>Apache Turbine</name>
         <created>2018-03-05</created>
         <revision>4.0.1</revision>
+      </Version>
+    </release>
+     <release>
+      <Version>
+        <name>Apache Turbine</name>
+        <created>2019-05-28</created>
+        <revision>5.0</revision>
       </Version>
     </release>
     <repository>

@@ -46,7 +46,7 @@
     Turbine is an excellent choice for developing applications that make use of a
     services-oriented architecture. Some of the functionality
     provided with Turbine includes a security management system (decoupled in Fulcrum Security), a
-    scheduling service, XML-defined form validation server (Fulcrum Intake),
+    scheduling service (decoupled in Fulcrum Quartz), XML-defined form validation server (Fulcrum Intake),
     and an XML-RPC service for web services.  It is a
     simple task to create new services particular to your application.
   </p>
@@ -59,7 +59,7 @@
     existing JSP tag libraries, Turbine offers support for the Sun standard.
     <strong>Velocity</strong> is the favorite view technology of most users of the Turbine
     framework; try it out and see if Velocity can help you develop your
-    web applications faster and work more easily with non-programming designers.
+    web applications faster and work more easily with non-programming designers.   
   </p>
 
   <p>
@@ -70,22 +70,31 @@
     participate in this open development project.  To learn more about getting
     involved, <a href="how-to-help.html">look at our &quot;How to Help&quot; pages</a>.
   </p>
+  
+  <subsection name="Integration Hints: JS, JSON, REST">
+   <p> Modelling on the client side with JS-frameworks like KnockoutJS or Vue.JS is supported of course. You may use the provided XML-RPC service,
+    simple Velocity context or Fulcrum JSON utilities.
+    You may even want to skip (almost) the entire (server) view part and decide to use just REST-API libraries (Javax.ws.rs, Jersey). 
+    As an example consider registering an JSON Fulcrum service returning a default (Jackson) ObjectMapper object, which may be resolved by a
+    javax.ws.rs context Provider.
+    For now no custom security integration is yet provided, but this may be done with web-token or any other token based authentification system 
+    or annotation based.
+    </p>
+  </subsection>
 
 </section>
 
 <section name="Turbine Versions">
   <p>
-    Turbine comes in two shapes which both have their advantages:
-
+    Turbine is since version 4.0 developed in a single master/branch.
   <ul>
     <li><strong><a href="turbine/development/turbine-5.0/">Turbine 5.0</a></strong> is
-    the current development master using Servlet 3.1, Java 8, Log4J2, Velocity 2.  It is already used in some live applications,
-     download it (soon) from one of the <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-5.0/">Apache Mirrors</a>.
+    the current development master using Servlet 3.1, Java 8, Log4J2, Velocity 2. It is already used in some live applications,
+     download it from one of the <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-5.0/">Apache Mirrors</a>.
     </li>
    
-    <li><strong><a href="turbine/turbine-4.0/">Turbine 4.0</a></strong> should be the used, if starting a project based 
-    on a release version of the Turbine framework. 
-    Download it from one of the 
+    <li><strong><a href="turbine/turbine-4.0/">Turbine 4.0</a></strong> should be used only, if starting a project restricted 
+    with Java 7. Download it from one of the 
     <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0/">Apache Mirrors</a>.
     Turbine 4.0 uses technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
@@ -122,8 +131,8 @@
 <section name="Turbine Alumni">
 
 <p>
- As a longtime, but now ex-member of the <a href="http://jakarta.apache.org/">Apache Jakarta Project</a>, 
- Turbine has influenced quite a number of projects:
+ As a longtime, but now ex-member of the <a href="http://attic.apache.org/projects/jakarta.html">Apache Jakarta Project (before 2018)</a> 
+ (<a href="http://jakarta.apache.org/">old address</a>*), Turbine has influenced quite a number of projects:
 </p>
 <ul>
   <li>
@@ -143,6 +152,8 @@
     <a href="http://commons.apache.org/email/">Commons EMail</a>.
   </li>
 </ul>
+* Note: Be aware, that <a href="https://jakarta.ee/about/">Jakarta EE</a> is since 2019 
+ used as a brand label for the Java EE Cloud Native project.
 </section>
 
 <section name="The Apache Software Foundation">

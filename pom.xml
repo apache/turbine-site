@@ -37,11 +37,11 @@
     independently of the web portion of Turbine as well. In other words, we
     strive to make portions of Turbine easily available for use in other
     applications.</description>
-  <url>http://turbine.apache.org/</url>
+  <url>https://turbine.apache.org/</url>
   <inceptionYear>2000</inceptionYear>
   <organization>
     <name>Apache Software Foundation</name>
-    <url>http://turbine.apache.org/</url>
+    <url>https://turbine.apache.org/</url>
   </organization>
   <mailingLists>
     <mailingList>
@@ -157,7 +157,7 @@
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/turbine/site</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/turbine/site</developerConnection>
-    <url>http://svn.apache.org/viewvc/turbine/site/</url>
+    <url>https://svn.apache.org/viewvc/turbine/site/</url>
   </scm>
 
   <build>

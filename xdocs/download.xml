@@ -29,7 +29,9 @@
 <section name="Getting Started With Turbine">
   <p>
     The best way to get started with Turbine is to use the
-    Maven Archetypes, find it on <a href="https://github.com/apache/turbine-archetypes" title="Turbine Maven Archetype on GitHub">GitHub</a>. You might interested in the <a href="https://github.com/apache/turbine-archetypes/tree/docker">Docker branch (in development)</a> as well. See also the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+    Maven Archetypes, find it on <a href="https://github.com/apache/turbine-archetypes" title="Turbine Maven Archetype on GitHub">GitHub</a>. 
+    You might interested in the <a href="https://github.com/apache/turbine-archetypes/tree/docker">Docker branch (in development)</a> as well. 
+    See also the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
     in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
     usage information. 
   </p>

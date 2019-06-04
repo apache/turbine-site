@@ -280,8 +280,8 @@ href="http://www.hsqldb.org/">HSQL</a>.
 </p>
 
 <p>
-Complete directions for getting Turbine up and running is available at
-the <a href="meta/">META site</a>.
+For deployment integration in an application server, a couple of tools exist, e.g. you may use the 
+<a href="https://codehaus-cargo.github.io/cargo/Maven2+plugin.html">Cargo-Plugin</a>.
 </p>
 
 <p>
@@ -307,7 +307,7 @@ href="http://turbine.apache.org/">http://turbine.apache.org/</a>.
 <p>
 A very good tutorial on using Torque is also on the Turbine web site,
 here <a
-href="http://db.apache.org/torque/releases/torque-3.2/tutorial/">http://db.apache.org/torque/releases/torque-3.2/tutorial/</a>.
+href="http://db.apache.org/torque/torque-4.0/documentation/tutorial/index.html">http://db.apache.org/torque/torque-4.0/documentation/tutorial/</a>.
 </p>
 
 <p>Velocity is available from <a
@@ -333,6 +333,8 @@ and his brother Rob Linwood for reviewing this article.
 The article has been revised for Turbine 2.3 and Turbine 2.4 by <a
 href="mailto:henning@apache.org">Henning Schmiedehausen</a>. All
 errors and omissions from Jeffs' original article are mine.
+</p>
+<p>More Changes since Turbine version 4 are done by 
 </p>
 </subsection>
 </section>
