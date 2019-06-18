@@ -65,10 +65,11 @@
         <item name="Turbine 2.3.3"   href="/turbine/turbine-2.3.3/index.html"/>
         <item name="Turbine 4.0-M2"  href="/turbine/turbine-4.0-M2/index.html"/>
         <item name="Turbine 4.0"  href="/turbine/turbine-4.0/index.html"/>
+        <item name="Turbine 5.0"     href="/turbine/turbine-5.0/index.html"/>
     </menu>
 
     <menu name="Turbine Development">
-        <item name="Turbine 5.0"     href="/turbine/development/turbine-5.0/index.html"/>
+        <item name="Turbine 5.1"     href="/turbine/development/turbine-5.1/index.html"/>
     </menu>
 
     <menu name="Turbine Sub Projects">

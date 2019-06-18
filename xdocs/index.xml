@@ -38,7 +38,7 @@
   <p>
     Turbine is a matured and well established framework that is used as
     the base of many other projects (like e.g. the excellent <a
-    href="http://portals.apache.org/jetspeed-1/">Jetspeed 1</a>
+    href="https://portals.apache.org/jetspeed-1/">Jetspeed 1</a>
     Portals framework.
   </p>
 
@@ -88,14 +88,17 @@
   <p>
     Turbine is since version 4.0 developed in a single master/branch.
   <ul>
-    <li><strong><a href="turbine/development/turbine-5.0/">Turbine 5.0</a></strong> is
-    the current development master using Servlet 3.1, Java 8, Log4J2, Velocity 2. It is already used in some live applications,
-     download it from one of the <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-5.0/">Apache Mirrors</a>.
+   <li><strong><a href="turbine/development/turbine-5.1/">Turbine 5.1</a></strong> is
+    the current development master. Download it from one of the <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-5.1/">Apache Mirrors</a>.
+    </li>
+   
+    <li><strong><a href="turbine/turbine-5.0/">Turbine 5.0</a></strong> is using Servlet 3.1, Java 8, Log4J2, Velocity 2. It is already used in some live applications,
+     download it from one of the <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-5.0/">Apache Mirrors</a>.
     </li>
    
     <li><strong><a href="turbine/turbine-4.0/">Turbine 4.0</a></strong> should be used only, if starting a project restricted 
     with Java 7. Download it from one of the 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0/">Apache Mirrors</a>.
+    <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-4.0/">Apache Mirrors</a>.
     Turbine 4.0 uses technologies like an <a href="http://avalon.apache.org/">
     Avalon-based</a> container and decoupled components from the
     <strong><a href="fulcrum/">Fulcrum</a></strong> sub-project of Turbine (most of the benefits of
@@ -110,7 +113,7 @@
     Turbine.  The <a href="turbine/development/turbine-2.3/">2.3 branch</a>
     of Turbine has been switched to maintenance mode, however. 
     You can download Turbine 2.3.3 from one of the 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine/turbine-2.3.3/">Apache Mirrors</a></li>
+    <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-2.3.3/">Apache Mirrors</a></li>
     
   </ul>
   </p>
@@ -123,7 +126,7 @@
   <li>
     <a href="/fulcrum/">Fulcrum</a> components are by default in use since Turbine 4.x. It is a collection of services originally
     developed as part of Turbine, but now decoupled and usable in any environment
-    that supports <a href="http://wiki.apache.org/excalibur/AvalonFramework">Avalon</a> components. 
+    that supports <a href="https://attic.apache.org/projects/avalon.html">Avalon</a> components. 
   </li>
 </ul>
 </section>
@@ -132,24 +135,24 @@
 
 <p>
  As a longtime, but now ex-member of the <a href="http://attic.apache.org/projects/jakarta.html">Apache Jakarta Project (before 2018)</a> 
- (<a href="http://jakarta.apache.org/">old address</a>*), Turbine has influenced quite a number of projects:
+ (<a href="https://jakarta.apache.org/">old address</a>*), Turbine has influenced quite a number of projects:
 </p>
 <ul>
   <li>
-    <a href="http://db.apache.org/torque/">Torque</a> is a persistence
+    <a href="https://db.apache.org/torque/">Torque</a> is a persistence
     layer originally developed as part of Turbine.  Torque is now
     decoupled and part of the <a href="http://db.apache.org/">Apache Database Project</a>.
   </li>
   <li>
-    <a href="http://maven.apache.org/">Maven</a> is an advanced Java
+    <a href="https://maven.apache.org/">Maven</a> is an advanced Java
     Project Management tool originally developed out of the frustration with the
     Turbine build process. Maven is now a toplevel Apache project, residing at <a
-    href="http://maven.apache.org/">maven.apache.org</a>.
+    href="https://maven.apache.org/">maven.apache.org</a>.
   </li>
   <li>
     In addition, Turbine has spawned a number of <a href="http://commons.apache.org/">Commons</a>
-    components like <a href="http://commons.apache.org/configuration/">Commons configuration</a> or
-    <a href="http://commons.apache.org/email/">Commons EMail</a>.
+    components like <a href="https://commons.apache.org/configuration/">Commons configuration</a> or
+    <a href="https://commons.apache.org/email/">Commons EMail</a>.
   </li>
 </ul>
 * Note: Be aware, that <a href="https://jakarta.ee/about/">Jakarta EE</a> is since 2019 
@@ -158,7 +161,7 @@
 
 <section name="The Apache Software Foundation">
 <p>
-The <a href="http://www.apache.org">Apache Software Foundation</a> provides support for the 
+The <a href="https://www.apache.org">Apache Software Foundation</a> provides support for the 
 Apache community of open-source software projects. The Apache projects are defined by 
 collaborative consensus based processes, an open, pragmatic software license and a desire 
 to create high quality software that leads the way in its field.
