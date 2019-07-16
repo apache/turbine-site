@@ -75,6 +75,10 @@
     <menu name="Turbine Sub Projects">
         <item name="Fulcrum"               href="/fulcrum/index.html"/>
     </menu>
+    
+    <menu name="Turbine + Fulcrum Parent POM">
+        <item name="Turbine Parent"      href="/turbine-parent/index.html"/>
+    </menu>
 
     <menu name="Closed projects">
         <item name="Stratum"               href="/stratum/index.html"/>

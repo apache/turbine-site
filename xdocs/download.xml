@@ -41,7 +41,8 @@
   <p>
     If you already know how to use Turbine and simply want the latest
     binaries or source, you can get them from the
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine">Apache Mirror System</a>.
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">Apache Mirror System</a>   
+    or from <a href="https://github.com/apache/turbine-core/releases">Github Turbine-Core Release</a> Section.
   </p>
 </section>
 
