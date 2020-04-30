@@ -28,12 +28,18 @@
 
 <section name="News And Status">
   <h4>28 May 2019 - Release of Turbine 5.0</h4>
-  <p>
+    <p>
     The Turbine Team is proud to announce the 5.0 release of the Turbine Framework. This is a main release.
-    Download source and binary releases through the Apache mirror system at 
-    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
-    See <a href="/turbine/turbine-5.0/changes-report.html">what's new.</a>
-  </p>
+    <ul>
+    <li>Download source and binary releases through the Apache mirror system at 
+        <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+        Check <a href="download.html">here</a> (section Binary And Source Distributions) to find information on how to verify the downloaded files.
+        </li>
+        <li>
+        See <a href="/turbine/turbine-5.0/changes-report.html">what's new.</a>
+      </li>
+    </ul>
+    </p>
   
   <h4>05 Mar 2018 - Release of Turbine 4.0.1</h4>
   <p>
@@ -353,7 +359,7 @@ Status Report</a></h4>
 <h4>03 March 2002 - Snapshot downloads available</h4>
 <p>
 You can download the latest snapshots of Torque and TDK
-<a href="http://www.apache.org/dist/jakarta/jakarta-turbine/alpha/">here</a>
+<a href="http://downloads.apache.org/jakarta/jakarta-turbine/alpha/">here</a>
 </p>
 
 <h4>01 March 2002 - <a href="/common/status/03-01-2002.html">

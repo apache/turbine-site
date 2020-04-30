@@ -44,6 +44,12 @@
     <a href="http://www.apache.org/dyn/closer.cgi/turbine">Apache Mirror System</a>   
     or from <a href="https://github.com/apache/turbine-core/releases">Github Turbine-Core Release</a> Section.
   </p>
+    <p>Please  <a class="externalLink" href="https://www.apache.org/info/verification.html">verify the integrity</a>
+        of the downloaded files using the PGP signature (*.asc files) or the SHA512/SHA256 hash (*.sha512 or *.sha256 checksum files). <ul>
+        <li>Find the signatures/checksums <a href="https://downloads.apache.org/turbine/turbine-5.0/">here</a> (in subfolder binaries or source) .</li>
+        <li>Find  the <a class="externalLink" href="https://www.apache.org/dist/turbine/KEYS">public keys</a> used by the Turbine developers to sign the files.</li>
+        </ul>
+  </p>
 </section>
 
 <section name="Getting Archived Releases">
