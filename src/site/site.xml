@@ -28,6 +28,12 @@
     <bannerRight>
         <src>http://turbine.apache.org/images/logo.gif</src>
     </bannerRight>
+     <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.9</version>
+  </skin>
+  
     <publishDate format="dd MMMM yyyy" position="left" />
     <version position="left" />
     
@@ -100,4 +106,10 @@
         <item name="Improving Documentation"          href="/common/documentation.html"/>
     </menu>
     </body>
+    <custom>
+      <fluidoSkin>
+        <topBarEnabled>false</topBarEnabled>
+        <sideBarEnabled>true</sideBarEnabled>
+      </fluidoSkin>
+  </custom>
 </project>
