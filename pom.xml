@@ -156,7 +156,7 @@
 
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/turbine-site.git</connection>
-    <developerConnection>scm:svn:https://gitbox.apache.org/repos/asf/turbine-site.git</developerConnection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/turbine-site.git</developerConnection>
     <url>https://gitbox.apache.org/repos/asf/turbine-site.git</url>
   </scm>
 
@@ -167,9 +167,10 @@
         <artifactId>maven-scm-publish-plugin</artifactId>
         <configuration>
           <content>${project.reporting.outputDirectory}</content>
-          <pubScmUrl>scm:svn:${turbine.scmPubUrl}</pubScmUrl>
+          <pubScmUrl>scm:git:${turbine.scmPubUrl}</pubScmUrl>
           <checkoutDirectory>${turbine.scmPubCheckoutDirectory}</checkoutDirectory>
           <tryUpdate>true</tryUpdate>
+          <scmBranch>asf-site</scmBranch>
           <skipDeletedFiles>true</skipDeletedFiles>
           <ignorePathsToDelete>
             <ignorePathToDelete>dtd**</ignorePathToDelete>
@@ -222,7 +223,7 @@
   </reporting>
   
   <properties>
-    <turbine.site.path></turbine.site.path>
+    <turbine.site.path>${project.artifactId}</turbine.site.path>
     <turbine.scmPubCheckoutDirectory>${turbine.site.cache}/site</turbine.scmPubCheckoutDirectory>
   </properties>
 
