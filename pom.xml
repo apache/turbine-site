@@ -24,7 +24,7 @@
   <parent>
   	<artifactId>turbine-parent</artifactId>
   	<groupId>org.apache.turbine</groupId>
-  	<version>7-SNAPSHOT</version>
+  	<version>9-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache.turbine</groupId>
@@ -157,8 +157,18 @@
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/turbine-site.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/turbine-site.git</developerConnection>
-    <url>https://gitbox.apache.org/repos/asf/turbine-site.git</url>
+    <url>https://github.com/apache/${turbine.site.path}/tree/${project.scm.tag}</url>
+    <tag>HEAD</tag>
   </scm>
+  
+   <!-- distributionManagement required for staging to work, id and url defined in parent, adapt turbine.site.path -->
+   <distributionManagement>
+      <site>
+          <name>Turbine Wrapper Website</name>
+           <id>apache.org</id>
+          <url>https://github.com/apache/turbine-fulcrum-site/</url>
+        </site>
+   </distributionManagement>
 
   <build>
     <plugins>

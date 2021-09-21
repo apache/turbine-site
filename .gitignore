@@ -1,5 +1,5 @@
-docs
+docs/
 build.properties
-target
+target/
 .project
 *.log*
