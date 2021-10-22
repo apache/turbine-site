@@ -30,10 +30,9 @@
   <p>
     The best way to get started with Turbine is to use the
     Maven Archetypes, find it on <a href="https://github.com/apache/turbine-archetypes" title="Turbine Maven Archetype on GitHub">GitHub</a>. 
-    You might interested in the <a href="https://github.com/apache/turbine-archetypes/tree/docker">Docker branch (in development)</a> as well. 
+    You might interested to use the Docker mode, read more about it the <a href="https://github.com/apache/turbine-archetypes/blob/master/src/main/resources/archetype-resources/docs/DOCKER-README.md">here</a> as well. 
     See also the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
-    in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
-    usage information. 
+    in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for more usage information. 
   </p>
 </section>
 
@@ -73,20 +72,24 @@
 
 <section name="Getting The Development Source From Subversion">
   <p>
-    You can check out the latest source from the Turbine Subversion repository.
+    You can check out the latest source from the Turbine GIT repository.
     Information on connecting to the ASF Subversion repositories can be found on the
-    <a href="http://www.apache.org/dev/version-control.html">version control page</a>.
+    <a href="https://infra.apache.org/version-control.html">version control page</a>.
     More specific details can be found on the <em>Source Repository</em> page,
     within <em>Project Reports</em> under <em>Project Documentation</em>,
     of each Turbine sub-project.
 
     </p>
-    <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/core/trunk/]]></source>
+    <source><![CDATA[git clone https://github.com/apache/turbine-core]]></source>
+    
+    <p>The old svn repository of Turbine is still available in readonly mode.
+      <a href="https://svn.apache.org/repos/asf/turbine/core/trunk">SVN Turbine Trunk (deprecated)</a>.
+    </p>
 </section>
 
 <section name="Building The Source">
   <p>
-    Be sure and read the README.txt file for instructions on how to build Turbine.
+    Be sure and read the README.md file for instructions on how to build Turbine.
     Turbine uses <a href="http://maven.apache.org/">Maven</a> as its
     build system, and building is as simple as running 'mvn package'
     at the top of the source directory.

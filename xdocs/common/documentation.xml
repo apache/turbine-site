@@ -136,11 +136,11 @@
       <li>
 <p>
           <strong>Get The Source:</strong>
-          Check out the latest source from the Turbine subversion module. You can learn
+          Check out the latest source from the Turbine GIT module. You can learn
           about the Turbine repositories on the <a href="../download.html">download page</a>.
           The Turbine documentation resides in the turbine-site tree:
 </p>
-        <source><![CDATA[svn checkout http://svn.apache.org/repos/asf/turbine/site]]></source>
+        <source><![CDATA[sgit clone https://github.com/apache/turbine-site]]></source>
       </li>
       <li>
 <p>
@@ -172,7 +172,7 @@ Total time:  20 seconds]]></source>
 
       <li>
         <strong>Make A Patch:</strong>
-        <source><![CDATA[svn diff  > name_of_patch.patch]]></source>
+        <source><![CDATA[git diff  > name_of_patch.patch]]></source>
       </li>
 
       <li>

@@ -81,6 +81,11 @@ Turbine is developed in an open, participatory environment and released under th
         <location rdf:resource="http://svn.apache.org/repos/asf/turbine/core/trunk/"/>
         <browse rdf:resource="http://svn.apache.org/viewvc/turbine/core/trunk/"/>
       </SVNRepository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/turbine-core.git"/>
+        <browse rdf:resource="https://gitbox.apache.org/repos/asf/turbine-core.git"/>
+      </GitRepository>
+ 
     </repository>
     <maintainer>
       <foaf:Person>
