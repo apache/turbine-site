@@ -35,11 +35,14 @@ This document contains links that can aid you in the development of turbine
 <ul>
 <li>Servlet Specs:
   <a href="http://java.sun.com/products/servlet/download.html"><b>2.2</b></a>,
-  <a href="http://www.jcp.org/aboutJava/communityprocess/final/jsr053/"><b>2.3</b></a>
+  <a href="http://www.jcp.org/aboutJava/communityprocess/final/jsr053/"><b>2.3</b></a>,
+  <a href="https://jcp.org/en/jsr/detail?id=315"><b>3.0</b></a>,
+  <a href="https://jcp.org/en/jsr/detail?id=340"><b>3.1 </b></a>
 </li>
 <li>Servlet API:
   <a href="http://java.sun.com/products/servlet/2.2/javadoc/"><b>2.2</b></a>,
-  <a href="http://java.sun.com/products/servlet/2.3/javadoc/"><b>2.3</b></a>
+  <a href="http://java.sun.com/products/servlet/2.3/javadoc/"><b>2.3</b></a>,
+  <a href="https://www.javadoc.io/doc/javax.servlet/javax.servlet-api/3.1.0/index.html"><b>3.1</b></a>
 </li>
 
 <li>Servlet Deltas:
@@ -47,14 +50,18 @@ This document contains links that can aid you in the development of turbine
   <a href="http://www.servlets.com/soapbox/servlet23.html"><b>2.2-&gt;2.3</b></a></li>
 <li>HTTP RFCs:
 <b><a href="http://www.servlets.com/rfcs/rfc1945.txt">1.0</a></b>,
-<b><a href="http://www.servlets.com/rfcs/rfc2616.txt">1.1</a></b>
+<b><a href="http://www.servlets.com/rfcs/rfc2616.txt">1.1</a></b>,
+<b><a href="https://datatracker.ietf.org/doc/html/rfc7540">2</a></b>,
+<b><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Updtes and Overview</a></b>
+
 </li>
 <li>File Upload RFCs:
 	<a href="http://www.servlets.com/rfcs/rfc1867.txt"><b>1867</b></a>,
 	<b><a href="http://www.servlets.com/rfcs/rfc2388.txt">2388</a></b></li>
 <li>HTML Specs:
 <b><a href="http://www.w3.org/TR/REC-html32">3.2</a></b>,
-<b><a href="http://www.w3.org/TR/html4/">4.0</a></b>
+<b><a href="http://www.w3.org/TR/html4/">4.0</a></b>,
+<b><a href="https://html.spec.whatwg.org/multipage/">5.0</a></b>
 </li>
 <li>Cookie Specs:
 <a href="http://wp.netscape.com/newsref/std/cookie_spec.html"><b>Netscape</b></a>,

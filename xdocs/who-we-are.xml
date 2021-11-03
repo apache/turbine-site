@@ -97,11 +97,25 @@ common mistakes and as a community we all grow together.
             <td>Forio Business Simulations</td>
             <td>PMC Member</td>
         </tr>
-        <tr class="a">
+         <tr class="a">
+            <td>Georg Kallidis</td>
+            <td>gk</td>
+            <td>gk@apache.org</td>
+            <td>FU Berlin, UB, CeDiS</td>
+            <td>PMC Chair, PMC Member</td>
+        </tr>
+        <tr class="b">
             <td>Siegfried Goeschl</td>
             <td>sgoeschl</td>
             <td>sgoeschl@apache.org</td>
             <td>IT20one</td>
+            <td>PMC Member</td>
+        </tr>
+         <tr class="a">
+            <td>Jeffery Painter</td>
+            <td>painter</td>
+            <td>painter@apache.org</td>
+            <td>jivecast</td>
             <td>PMC Member</td>
         </tr>
         <tr class="b">
@@ -109,7 +123,7 @@ common mistakes and as a community we all grow together.
             <td>tv</td>
             <td>tv@apache.org</td>
             <td>TeWiSoft GmbH</td>
-            <td>PMC Chair</td>
+            <td>PMC Member</td>
         </tr>
     </tbody>
 </table>
