@@ -396,7 +396,7 @@ comes with pool implementations for many of the most popular databases. Creating
 your own is quite simple as well, all you need to do is look at the existing
 code and create your own. By default <a href="https://db.apache.org/torque/torque-5.0/index.html">Torque</a> 
 is used as ORM-Mapper, find more info 
-<a href="https://db.apache.org/torque/torque-4.0/documentation/orm-reference/index.html">here</a>.
+<a href="https://db.apache.org/torque/torque-5.0/documentation/orm-reference/index.html">here</a>.
 If you need help or want someone to create one for
 your database, simply ask on the mailing list.
 </p>

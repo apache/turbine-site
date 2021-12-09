@@ -24,7 +24,8 @@
   <parent>
   	<artifactId>turbine-parent</artifactId>
   	<groupId>org.apache.turbine</groupId>
-  	<version>9-SNAPSHOT</version>
+  	<version>9</version>
+     <relativePath/>
   </parent>
 
   <groupId>org.apache.turbine</groupId>
