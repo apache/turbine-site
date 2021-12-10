@@ -1,5 +1,5 @@
 docs/
-build.properties
 target/
+.settings/
 .project
 *.log*
