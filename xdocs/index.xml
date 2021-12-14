@@ -88,8 +88,11 @@
   <p>
     Turbine is since version 4.0 developed in a single master/branch.
   <ul>
+  <li><strong><a href="turbine/development/turbine-5-2/">Turbine 5.2</a></strong> is  the current development master.
+    </li>
+  
    <li><strong><a href="turbine/development/turbine-5-1/">Turbine 5.1</a></strong> is
-    the current development master. Download it from one of the <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-5.1/">Apache Mirrors</a>.
+    is a highly backward compatible version of 5.0. Download it from <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-5.1/">Apache Mirrors</a>.
     </li>
    
     <li><strong><a href="turbine/turbine-5-0/">Turbine 5.0</a></strong> is using Servlet 3.1, Java 8, Log4J2, Velocity 2. It is already used in some live applications,

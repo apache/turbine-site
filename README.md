@@ -9,6 +9,7 @@ into .html files using Maven.
 This is the wrapper site for the released Turbine builds. New/Changed Turbine builds should be added/updated here: 
 - xdocs/index.xml
 - xdocs/news.xml
+- xdocs/turbine/index.xml
 - src/site/site.xml
 - doap/doap_Turbine.rdf
 

@@ -27,6 +27,22 @@
 <body>
 
 <section name="News And Status">
+
+  <h4>13 December 2021 - Release of Turbine 5.1</h4>
+    <p>
+    The Turbine Team is proud to announce the 5.1 release of the Turbine Framework. This is a main release.
+    <ul>
+    <li>Download source and binary releases through the Apache mirror system at 
+        <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+        Check <a href="download.html">here</a> (section Binary And Source Distributions) to find information on how to verify the downloaded files.
+        </li>
+        <li>
+        See <a href="/turbine/turbine-5.1/changes-report.html">what's new.</a>
+      </li>
+    </ul>
+    </p>
+    
+
   <h4>28 May 2019 - Release of Turbine 5.0</h4>
     <p>
     The Turbine Team is proud to announce the 5.0 release of the Turbine Framework. This is a main release.
