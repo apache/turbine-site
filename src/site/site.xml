@@ -29,7 +29,7 @@
         <src>http://turbine.apache.org/images/logo.gif</src>
     </bannerRight>
 
-    <publishDate format="dd MMMM yyyy" position="left" />>
+    <publishDate format="dd MMMM yyyy" position="left" />
     
     <body>
    
