@@ -33,9 +33,10 @@
     
     <subsection name="Turbine 5.x Release Branch">
     <ul>
-     <li><a href="turbine-5-1/">Apache Turbine 5.1</a> - Current Stable 5.0</li>
+     <li><a href="turbine-6-0/">Apache Turbine 6.0</a> - Current Stable 6.0</li>
+      <li><a href="development/turbine-6-1/">Apache Turbine 6.1-SNAPSHOT</a> - Current Development tree</li>
+      <li><a href="turbine-5-1/">Apache Turbine 5.1</a> - Current Stable 5.1</li>
       <li><a href="turbine-5-0/">Apache Turbine 5.0</a> - Current Stable 5.0</li>
-      <li><a href="development/turbine-5-2/">Apache Turbine 5.2-SNAPSHOT</a> - Current 5.2 Development tree</li>
     </ul>
     </subsection>
 
