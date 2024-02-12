@@ -31,6 +31,7 @@
     The best way to get started with Turbine is to use the
     Maven Archetypes, find it on <a href="https://github.com/apache/turbine-archetypes" title="Turbine Maven Archetype on GitHub">GitHub</a>. 
     You might interested to use the Docker mode, read more about it the <a href="https://github.com/apache/turbine-archetypes/blob/master/src/main/resources/archetype-resources/docs/DOCKER-README.md">here</a> as well. 
+    </p><p>
     See also the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
     in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for more usage information. 
   </p>
@@ -41,7 +42,7 @@
     If you already know how to use Turbine and simply want the latest
     binaries or source, you can get them from the
     <a href="http://www.apache.org/dyn/closer.cgi/turbine">Apache Mirror System</a>   
-    or from <a href="https://github.com/apache/turbine-core/releases">Github Turbine-Core Release</a> Section.
+    or from <a href="https://github.com/apache/turbine-core/tags">Github Turbine-Core Release</a> Section.
   </p>
     <p>Please  <a class="externalLink" href="https://www.apache.org/info/verification.html">verify the integrity</a>
         of the downloaded files using the PGP signature (*.asc files) or the SHA512/SHA256 hash (*.sha512 or *.sha256 checksum files). <ul>
@@ -70,17 +71,21 @@
 </section>
 -->
 
-<section name="Getting The Development Source From Subversion">
+<section name="Getting The Development Source From GIT">
   <p>
     You can check out the latest source from the Turbine GIT repository.
-    Information on connecting to the ASF Subversion repositories can be found on the
+    Information on connecting to the ASF GIT repositories can be found on the
     <a href="https://infra.apache.org/version-control.html">version control page</a>.
-    More specific details can be found on the <em>Source Repository</em> page,
+    </p><p>More specific details can be found on the <em>Source Repository</em> page,
     within <em>Project Reports</em> under <em>Project Documentation</em>,
     of each Turbine sub-project.
 
     </p>
     <source><![CDATA[git clone https://github.com/apache/turbine-core]]></source>
+    <subsection name="Turbine Build environment">
+    <p>Find the entire Turbine build environment and help pages here:</p>
+     <source><![CDATA[git clone https://github.com/apache/turbine-build]]></source>
+     </subsection>
     
     <p>The old svn repository of Turbine is still available in readonly mode.
       <a href="https://svn.apache.org/repos/asf/turbine/core/trunk">SVN Turbine Trunk (deprecated)</a>.
@@ -90,7 +95,7 @@
 <section name="Building The Source">
   <p>
     Be sure and read the README.md file for instructions on how to build Turbine.
-    Turbine uses <a href="http://maven.apache.org/">Maven</a> as its
+  </p><p>Turbine uses <a href="http://maven.apache.org/">Maven</a> as its
     build system, and building is as simple as running 'mvn package'
     at the top of the source directory.
   </p>
