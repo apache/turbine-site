@@ -96,7 +96,7 @@
         by Maven are a result of consulting a well defined model for your project.
       </li>
       <li>
-        <a href="http://db.apache.org/torque/">Torque 4</a> - A persistence layer.
+        <a href="http://db.apache.org/torque/">Torque 4/5</a> - A persistence layer.
         Torque includes a generator to generate all the database resources required
         by your application and includes a runtime environment to run the generated
         classes.

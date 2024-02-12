@@ -98,11 +98,11 @@
      </subsection>
    <subsection name="Releases">
         <ul>
-           <li><strong><a href="turbine/turbine-6-0/">Turbine 6.0</a></strong> is using Java 11 and is highly backward compatible to version 5.1. 
+           <li><strong><a href="turbine/turbine-6-0/">Turbine 6.0</a></strong> is using Java 11, Torque 5.1 and is highly backward compatible to version 5.1. 
            Download it from <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-6.0/">Apache Mirrors</a>.
             </li>
             
-             <li><strong><a href="turbine/turbine-5-1/">Turbine 5.1</a></strong> is using Servlet 3.1, Java 8, Log4J2, Velocity 2. It is used in  live applications,
+             <li><strong><a href="turbine/turbine-5-1/">Turbine 5.1</a></strong> is using Servlet 3.1, Java 8, Log4J2, Torque 5.0 and Velocity 2. It is used in live applications,
              download it from one of the <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-5.1/">Apache Mirrors</a>.
             </li>
            

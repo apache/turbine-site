@@ -30,7 +30,7 @@
 
   <groupId>org.apache.turbine</groupId>
   <artifactId>turbine-site</artifactId>
-  <version>5.0</version>
+  <version>6.0</version>
   <packaging>pom</packaging>
   <name>Turbine</name>
   <description>Turbine is a servlet based framework that allows experienced Java developers
