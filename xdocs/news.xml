@@ -127,6 +127,9 @@
     Download source and binary releases through the Apache mirror system at 
     <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
   </p>
+   <p>
+        See <a href="/turbine/turbine-2-3-3/changes-report.html">what's new.</a>
+  </p>
 
   <h4>10 Apr 2008 - Turbine starts release cycle for Turbine 2.3.3</h4>
   <p>
@@ -346,7 +349,7 @@ This release includes:
     <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-b2/">TDK 2.2-b2</a>
   </li>
   <li>
-    <a href="http://archive.apache.org/dist/turbine/2.2-b2/">Turbine 2.2-b2</a>
+    <a href="https://archive.apache.org/dist/turbine/2.2-b2/">Turbine 2.2-b2</a>
   </li>
   <li>
     <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-b3/">Torque 3.0-b3</a>
@@ -366,7 +369,7 @@ This release includes:
     <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-b1/">TDK 2.2-b1</a>
   </li>
   <li>
-    <a href="http://archive.apache.org/dist/turbine/2.2-b1/">Turbine 2.2-b1</a>
+    <a href="https://archive.apache.org/dist/turbine/2.2-b1/">Turbine 2.2-b1</a>
   </li>
   <li>
     <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-b1/">Torque 3.0-b1</a>
@@ -414,7 +417,7 @@ This release includes a new version of the
 Turbine Developer's Kit</a> and a new stand-alone version of
 <a href="/turbine/turbine-2.1/howto/torque-howto.html">Torque</a>.
 You can find everything
-<a href="http://archive.apache.org/dist/turbine/2.1">here</a>.
+<a href="https://archive.apache.org/dist/turbine/turbine-2.1/">here</a>.
 </p>
 
 <hr noshade="" size="1"/>
