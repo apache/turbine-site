@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+<properties>
+  <title>News and Status</title>
+</properties>
+
+<body>
+
+<section name="News And Status">
+
+  <h4>29 January 2024 - Release of Turbine 6.0</h4>
+    <p>
+    The Turbine Team is proud to announce the 6.0 release of the Turbine Framework. This is a main release.
+    <ul>
+    <li>Download source and binary releases through the Apache mirror system at 
+        <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+        Check <a href="download.html">here</a> (section Binary And Source Distributions) to find information on how to verify the downloaded files.
+        </li>
+        <li>
+        See <a href="/turbine/turbine-6-0/changes-report.html">what's new.</a>
+      </li>
+    </ul>
+    </p>
+
+  <h4>13 December 2021 - Release of Turbine 5.1</h4>
+    <p>
+    The Turbine Team is proud to announce the 5.1 release of the Turbine Framework. This is a main release.
+    <ul>
+    <li>Download source and binary releases through the Apache mirror system at 
+        <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+        Check <a href="download.html">here</a> (section Binary And Source Distributions) to find information on how to verify the downloaded files.
+        </li>
+        <li>
+        See <a href="/turbine/turbine-5-1/changes-report.html">what's new.</a>
+      </li>
+    </ul>
+    </p>
+    
+
+  <h4>28 May 2019 - Release of Turbine 5.0</h4>
+    <p>
+    The Turbine Team is proud to announce the 5.0 release of the Turbine Framework. This is a main release.
+    <ul>
+    <li>Download source and binary releases through the Apache mirror system at 
+        <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+        Check <a href="download.html">here</a> (section Binary And Source Distributions) to find information on how to verify the downloaded files.
+        </li>
+        <li>
+        See <a href="/turbine/turbine-5.0/changes-report.html">what's new.</a>
+      </li>
+    </ul>
+    </p>
+  
+  <h4>05 Mar 2018 - Release of Turbine 4.0.1</h4>
+  <p>
+    The Turbine Team is proud to announce the 4.0.1 release of the Turbine Framework. This is mainly a bugfix release.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-4-0/changes-report.html">what's new.</a>
+  </p>
+  
+  <h4>10 Nov 2017 - Release of Turbine 4.0</h4>
+  <p>
+    The Turbine Team is proud to announce the 4.0 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-4-0/changes-report.html">what's new.</a>
+  </p>
+  
+  <h4>22 Dec 2015 - Release of Turbine 4.0-M2 Milestone</h4>
+  <p>
+    The Turbine Team is proud to announce the 4.0-M2 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-4-0/changes-report.html">what's new.</a>
+  </p>
+
+  <h4>18 Nov 2012 - Release of Turbine Maven Archetypes</h4>
+  <p>
+    The Turbine Team announces the release of two Maven archetypes for the 
+    creation of Apache Turbine web applications. They have been created to
+    take the hassle out of the process of creating a new working Turbine 
+    project. See the <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
+    in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
+    usage information.
+  </p>
+
+  <h4>5 Nov 2012 - Release of Turbine Parent POM 2</h4>
+  <p>
+    The Turbine Team announces the release of a common Parent POM for the 
+    Apache Turbine and Fulcrum project.
+    Despite it's version 2 this is the first official release. This POM is
+    supposed to be used as parent for all modules in the Apache Turbine Project.
+  </p>
+
+  <h4>23 Jun 2011 - Release of Turbine 4.0-M1 Milestone</h4>
+  <p>
+    The Turbine Team is proud to announce the 4.0-M1 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+    See <a href="/turbine/turbine-4-0/changes-report.html">what's new.</a>
+  </p>
+
+  <h4>21 Nov 2008 - Release of Turbine 2.3.3</h4>
+  <p>
+    The Turbine Team is proud to announce the 2.3.3 release of the Turbine Framework.
+    Download source and binary releases through the Apache mirror system at 
+    <a href="http://www.apache.org/dyn/closer.cgi/turbine">the turbine download site</a>.
+  </p>
+   <p>
+        See <a href="/turbine/turbine-2-3-3/changes-report.html">what's new.</a>
+  </p>
+
+  <h4>10 Apr 2008 - Turbine starts release cycle for Turbine 2.3.3</h4>
+  <p>
+    Finally we used the ApacheCon to get old and new people together and cut down
+    some responsibilities on committers. So we started the release cycle and are looking
+    forward for future releases.
+  </p>
+
+  <h4>16 May 2007 - Turbine becomes a top-level project of the ASF</h4>
+<p>
+At the May board meeting of the ASF a resolution to make Turbine a top-level
+project of the ASF was passed.  This means we are leaving the umbrella of
+Jakarta to forge ahead on our own.
+</p>
+<p>
+There will be a period of instability while the site, mailing lists, etc. are
+migrated from jakarta.apache.org to turbine.apache.org, but we hope to sort
+everything out in the near future.
+</p>
+<p>
+You may be interested to know that there has been a fair bit of activity lately
+working towards a 2.3.3 release.  There is still a little more work to do and
+a couple of dependencies we are waiting for, but this is shaping up to be a
+good step forward and long overdue update.  Watch this space.
+</p>
+
+<h4>3. October 2005 - M.E.T.A. 1.3 released!</h4>
+<p>
+The Turbine Team is proud to announce the 1.3 release of M.E.T.A, the
+Maven Environment for Turbine Applications, a maven 1.x plugin for
+developing Turbine applications.
+Download source and binary releases
+through the Apache mirror system at <a
+href="/download.html">the
+turbine download site</a> or the <a
+href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aturbine">central maven
+repository</a>.
+</p>
+
+<h4>3. October 2005 - Turbine 2.3.2 released!</h4>
+<p>
+The Turbine Team is proud to announce the 2.3.2 release of the Turbine
+Web Application Framework.<br/> Download source and binary releases
+through the Apache mirror system at <a
+href="/download.html">the
+turbine download site</a> or the <a
+href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aturbine">central maven
+repository</a>.
+</p>
+
+<h4>Turbine Stratum 1.0 released</h4>
+<p>
+  The Turbine team has decided to do some actual software paleontology and
+  do a release of the long standing Turbine 2.3.x component layer called
+  &quot;Stratum&quot;. This release is intended as a closure to replace all the
+  alpha and beta versions floating around. There is no further development
+  beyond the 1.0 version planned.
+</p>
+
+<h4>ApacheCon EU 2005, 18-22 July 2005, Stuttgart, Germany</h4>
+<p>
+ Turbine and Turbine-related subjects are covered at <a href="http://www.apachecon.com/2005/EU/">ApacheCon EU 2005</a>. We have listed the sessions that might be interesting for Turbineers <a href="events/apachecon-eu2005.html">on an extra page</a>.
+</p>
+
+<h4>ApacheCon 2004, 13-17 November 2004, Alexis Park Resort, Las Vegas, U.S.A. </h4>
+<p>
+ Turbine and Turbine-related subjects are covered at <a href="http://www.apachecon.com/2004/US/">ApacheCon 2004</a>. We have listed the sessions that might be interesting for Turbineers <a href="events/apachecon2004.html">on an extra page</a>.
+</p>
+
+
+<h4>1 October 2004 - Turbine at OSCOM 4, Zürich, Switzerland</h4>
+<p>
+Rapid application prototyping with <a
+href="/">Turbine</a> and <a
+href="http://maven.apache.org/">Maven</a> using the <a
+href="meta/">Maven Environment for Turbine Applications (META)</a>
+will be <a
+href="http://www.oscom.org/events/oscom4/proposals/turbine">
+presented</a> at OSCOM 4 in Zürich.
+</p>
+
+<h4>14. August 2004 - Turbine 2.4 Milestone 1 Release</h4>
+<p>
+The Turbine team is proud to announce the first milestone release of
+the Turbine 2.4 framework. This is intended to serve as a baseline for
+early adopters of the Turbine 2.4 framework.
+</p>
+
+<h4>20 September 2003 - Turbine at the ApacheCon 2003</h4>
+<p>
+Turbine is going to be covered at the <a
+href="http://apachecon.com/2003/US/index.html">ApacheCon 2003</a> in
+Las Vegas, Nevada with a <a
+href="http://www.apachecon.com/html/session-popup.html?id=857">three
+hour tutorial session</a> and an <a
+href="http://www.apachecon.com/html/session-popup.html?id=855">one hour
+talk</a>. So if you're interested in learning about what's new in the
+Turbine 2.3 framework or just want to have face time with the Turbine
+developers, come and meet us there.
+</p>
+<h4>3 September 2003 - Turbine 2.3 is available</h4>
+<p>
+The Turbine Team is proud to announce the 2.3 release of the Turbine Web Application Framework.<br/>
+Download the releases:
+<ul>
+  <li>
+    Source: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/source/">Turbine 2.3 Source</a>
+  </li>
+  <li>
+    Binaries for JDK 1.3.1 and JDK 1.4.2: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/binaries/">Turbine 2.3 Binaries</a>
+  </li>
+</ul>
+</p>
+
+<h4>26 August 2003 - New Nightly snapshots are available</h4>
+<p>
+We have a new, improved snapshot site, which now also conforms to the
+Apache guidelines. Get snapshots for all the Turbine sub projects from
+<a href="http://cvs.apache.org/dist/jakarta/turbine/nightly/">here</a>.
+</p>
+
+<h4>26 August 2003 - Turbine 2.3 RC2 available</h4>
+<p>
+The Turbine Team is proud to announce the second and last release candidate of the
+2.3 release of Turbine.<br/>
+Download the releases:
+<ul>
+  <li>
+    Source: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/source/">Turbine 2.3 Source</a>
+  </li>
+  <li>
+    Binaries for JDK 1.3.1 and JDK 1.4.2: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/binaries/">Turbine 2.3 Binaries</a>
+  </li>
+</ul>
+</p>
+
+<h4>19 August 2003 - Turbine 2.3 RC1 available</h4>
+<p>
+The Turbine Team is proud to announce the first release candidate of the
+2.3 release of Turbine.<br/>
+Download the releases:
+<ul>
+  <li>
+    Source: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/source/">Turbine 2.3 Source</a>
+  </li>
+  <li>
+    Binaries for JDK 1.3.1 and JDK 1.4.2: <a href="http://archive.apache.org/dist/turbine/turbine-2.3/binaries/">Turbine 2.3 Binaries</a>
+  </li>
+</ul>
+</p>
+
+<h4>15 January 2003 - Turbine Article</h4>
+<p>
+  An article about Turbine was published
+  <a href="http://www.vsj.co.uk/articles/display.asp?id=122" >here</a>.
+</p>
+<h4>06 December 2002 - New releases</h4>
+<p>
+The Turbine Team is proud to announce the 2.2 release of Turbine and the
+3.0 release of Torque. <br/>
+Download the releases:
+<ul>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2/">TDK 2.2</a>
+  </li>
+  <li>
+    <a href="http://archive.apache.org/dist/turbine/2.2/">Turbine 2.2</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0/">Torque 3.0</a>
+  </li>
+</ul>
+</p>
+
+<h4>20 November 2002 - New releases</h4>
+<p>
+The Turbine Team is proud to announce the 2.2-rc2 release of Turbine and the
+3.0-rc2 release of Torque. <br/>
+Download the releases:
+<ul>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-rc2/">TDK 2.2-rc2</a>
+  </li>
+  <li>
+    <a href="http://archive.apache.org/dist/turbine/2.2-rc2/">Turbine 2.2-rc2</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-rc2/">Torque 3.0-rc2</a>
+  </li>
+</ul>
+</p>
+
+<h4>26 October 2002 - New releases</h4>
+<p>
+The Turbine Team is proud to announce the 2.2-rc1 release of Turbine and the
+3.0-rc1 release of Torque. <br/>
+Download the releases:
+<ul>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-rc1/">TDK 2.2-rc1</a>
+  </li>
+  <li>
+    <a href="http://archive.apache.org/dist/turbine/2.2-rc1/">Turbine 2.2-rc1</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-rc1/">Torque 3.0-rc1</a>
+  </li>
+</ul>
+</p>
+
+<h4>17 July 2002 - Jakarta Turbine 2.2-b2 Released</h4>
+<p>
+The Turbine Team is proud to announce the 2.2-b2 release of Turbine. <br/>
+This release includes:
+<ul>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-b2/">TDK 2.2-b2</a>
+  </li>
+  <li>
+    <a href="https://archive.apache.org/dist/turbine/2.2-b2/">Turbine 2.2-b2</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-b3/">Torque 3.0-b3</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/stratum/release/1.0-b2/">Stratum 1.0-b2</a>
+  </li>
+</ul>
+</p>
+
+<h4>18 March 2002 - Jakarta Turbine 2.2-b1 Released</h4>
+<p>
+The Turbine Team is proud to announce the 2.2-b1 release of Turbine. <br/>
+This release includes:
+<ul>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/tdk/release/2.2-b1/">TDK 2.2-b1</a>
+  </li>
+  <li>
+    <a href="https://archive.apache.org/dist/turbine/2.2-b1/">Turbine 2.2-b1</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/torque/release/3.0-b1/">Torque 3.0-b1</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/fulcrum/release/3.0-b1/">Fulcrum 3.0-b1</a>
+  </li>
+  <li>
+    <a href="http://jakarta.apache.org/builds/jakarta-turbine/stratum/release/1.0-b1/">Stratum 1.0-b1</a>
+  </li>
+</ul>
+</p>
+
+<h4>15 March 2002 - <a href="/common/status/03-15-2002.html">
+Status Report</a></h4>
+
+<h4>08 March 2002 - <a href="/common/status/03-08-2002.html">
+Status Report</a></h4>
+
+<h4>03 March 2002 - Snapshot downloads available</h4>
+<p>
+You can download the latest snapshots of Torque and TDK
+<a href="http://downloads.apache.org/jakarta/jakarta-turbine/alpha/">here</a>
+</p>
+
+<h4>01 March 2002 - <a href="/common/status/03-01-2002.html">
+Status Report</a></h4>
+
+<h4>22 February 2002 - <a href="/common/status/02-22-2002.html">
+Status Report</a></h4>
+
+<h4>15 February 2002 - <a href="/common/status/02-15-2002.html">
+Status Report</a></h4>
+
+<h4>08 February 2002 - <a href="/common/status/02-08-2002.html">
+Status Report</a></h4>
+
+<h4>04 June 2001 - Jakarta Turbine 2.1 Released</h4>
+
+<p>
+The <a href="/">Turbine</a> Team
+is proud to announce the 2.1 release of Turbine.
+This release includes a new version of the
+<a href="/turbine/turbine-2.1/howto/tdk-howto.html">
+Turbine Developer's Kit</a> and a new stand-alone version of
+<a href="/turbine/turbine-2.1/howto/torque-howto.html">Torque</a>.
+You can find everything
+<a href="https://archive.apache.org/dist/turbine/turbine-2.1/">here</a>.
+</p>
+
+<hr noshade="" size="1"/>
+
+</section>
+
+</body>
+</document>

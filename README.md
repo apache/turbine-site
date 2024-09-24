@@ -36,7 +36,7 @@ Either save the content from target/site, switch to branch asf-site, copy the sa
 
 Or:
 
-    mvn site site:stage
+    mvn clean site site:stage
     
     mvn scm-publish:publish-scm
 

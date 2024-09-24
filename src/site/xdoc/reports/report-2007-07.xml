@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>Board Report July 2007</title>
+  <author email="seade@backstagetech.com.au">Scott Eade</author>
+ </properties>
+
+<body>
+
+<section name="Apache Turbine Project Board report, July 2007">
+
+<subsection name="Status">
+
+<p>TLP migration is mostly done. The largest outstanding issue is to migrate our
+ download pages over from Jakarta. Other than this development activity has been
+ very low this month.</p>
+<p>The most immediate challenge we have is addressing the requirement to
+ register Turbine's cryptographic capabilities as per
+ http://apache.org/dev/crypto (ECCN codes). This was mentioned on last month's
+ report, but a query via the dev list has put pressure on us to action this.</p>
+<p>We have no board-level issues at this time.</p>
+
+</subsection>
+
+<subsection name="Community changes">
+
+<p>No new committers were voted in since the last board report.</p>
+<p>No new PMC members were voted in since the last board report.</p>
+
+</subsection>
+
+<subsection name="Turbine core project">
+
+<p>No major activity this month. Further work on localization is being discussed
+ and the ECCN code issue mentioned above came up.</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="Fulcrum component project">
+
+<p>No major activity this month. A minor build problem relating to the
+ redirection from jakarta to turbine has been identified and will no doubt be
+ fixed in less time than it has taken me to write this sentence.</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="META project">
+
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>

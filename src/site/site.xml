@@ -18,22 +18,36 @@
  under the License.
 -->
 
-<project name="Apache Turbine">
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd"
+  name="Apache Turbine" combine.self="merge">  
 
-    <bannerLeft>
-        <name>Apache Turbine</name>
-        <src>http://turbine.apache.org/images/turbine-project.png</src>
-        <href>http://turbine.apache.org/</href>
-    </bannerLeft>
-    <bannerRight>
-        <src>http://turbine.apache.org/images/logo.gif</src>
-    </bannerRight>
+  <bannerLeft href="https://turbine.apache.org/">
+    <image src="https://turbine.apache.org/images/turbine-project.png" alt="Apache Turbine" />
+  </bannerLeft>
 
-    <publishDate format="dd MMMM yyyy" position="left" />
+   <bannerRight href="https://turbine.apache.org/">
+       <image src="http://turbine.apache.org/images/logo.gif" />
+   </bannerRight>
     
-    <body>
+    <publishDate format="dd MMMM yyyy" position="left" />
+    <version position="left" />
    
-
+  
+  <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>2.0.0-M10</version>
+  </skin>
+  <body>
+    <head/>
+  
+     <links>
+        <item name="Apache" href="https://www.apache.org/"> </item>
+        <item name="Turbine" href="https://turbine.apache.org/">  </item>
+          <item name="Fulcrum" href="/fulcrum/"> </item>
+    </links>
+   
     <menu name="General Information">
         <item name="Overview"              href="/index.html"/>
         <item name="Turbine Concepts"      href="/turbine-concepts.html"/>
@@ -57,7 +71,9 @@
     </menu>
     
     <menu name="Events">
-      <item name="" title="Apache Conferences" href="https://www.apache.org/events/current-event.html" img="https://www.apache.org/events/current-event-125x125.png" target="_blank"/>
+      <item name="Apache Conferences" href="https://www.apache.org/events/current-event.html" target="_blank">
+         <image src="https://www.apache.org/events/current-event-125x125.png" alt=""/>
+      </item>
     </menu>
 
     <menu name="Turbine Releases">
@@ -65,8 +81,8 @@
         <item name="Turbine 2.3.3"   href="/turbine/turbine-2-3-3/index.html"/>
         <item name="Turbine 4.0 (M2)"  href="/turbine/turbine-4-0/index.html"/>
         <item name="Turbine 5.0"     href="/turbine/turbine-5-0/index.html"/>
-         <item name="Turbine 5.1"     href="/turbine/turbine-5-1/index.html"/>
-          <item name="Turbine 6.0"     href="/turbine/turbine-6-0/index.html"/>
+        <item name="Turbine 5.1"     href="/turbine/turbine-5-1/index.html"/>
+        <item name="Turbine 6.0"     href="/turbine/turbine-6-0/index.html"/>
     </menu>
 
     <menu name="Turbine Development">
@@ -101,6 +117,21 @@
         <item name="Developer Links"       href="/common/developer-links.html"/>
         <item name="Improving Documentation"          href="/common/documentation.html"/>
     </menu>
-    </body>
+    <footer/>
+  </body>
+  <custom>
+        <fluidoSkin>
+            <topBarEnabled>false</topBarEnabled>
+            <sideBarEnabled>true</sideBarEnabled>
+            <googleSearch>
+                <sitesearch/>
+            </googleSearch>
+            <gitHub>
+                <projectId>apache/turbine-build</projectId>
+                <ribbonOrientation>right</ribbonOrientation>
+                <ribbonColor>orange</ribbonColor>
+            </gitHub>
+        </fluidoSkin>
+    </custom>
     
-</project>
+</site>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+<properties>
+  <title>Board Report November 2011</title>
+  <author email="tv@apache.org">Thomas Vandahl</author>
+</properties>
+
+<body>
+
+<section name="Apache Turbine Project Board Report, November 2011">
+
+<p>Apache Turbine is a servlet based framework that allows experienced Java 
+developers to quickly build web applications. Turbine allows you to use personalize
+the web sites and to use user logins to restrict access to parts of your application.</p>
+<p>Turbine is a matured and well established framework that is used as the base of 
+many other projects.</p>
+
+<subsection name="Status">
+
+<p>The Turbine project has as usual seen fairly low levels of activity in
+the last quarter.</p>
+<p>The Turbine project has no board-level issues at this time.</p>
+
+</subsection>
+
+<subsection name="Project Branding Board Report Checklist">
+
+<p>The last issue left is
+<ul>
+<li>TODO: Logos and Graphics : include TM</li>
+</ul>
+</p>
+
+</subsection>
+<subsection name="Community changes">
+
+<p>No new committers were voted in since the last board report.</p>
+<p>No new PMC members were voted in since the last board report.</p>
+
+</subsection>
+
+<subsection name="Turbine core project">
+
+<p>The Turbine core project proceeds slowly to the next milestone 
+release which shall include a modified security implementation and 
+support for the Quartz scheduler to replace the built-in one.</p>
+<p>It has been decided to promote the existing fulcrum-parent POM 
+to a new turbine-parent POM. Adjustment of the related sub-projects
+is underway.</p>
+
+</subsection>
+
+<subsection name="Fulcrum component project">
+
+<p>Work on migrating the build process of the Fulcrum components to Maven 2 continues.</p>
+<p>- fulcrum-quartz, version 1.1.0 has been released in this quarter.</p>
+
+</subsection>
+
+<subsection name="META project">
+
+<p>There has been no activity on the META sub-project in this quarter.</p>
+<p>No beta or final releases were made since the last board report.</p> 
+<p>Two new Maven-2 archetypes have been created as a result of the Hackathon 
+at ApacheCon. They support the creation of Turbine web applications for 
+Turbine versions 2.3.3 and 4.0. It is planned to close down the sub-project 
+META in favor to the support of Maven-2 archetypes.</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>

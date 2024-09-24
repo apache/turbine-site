@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+ <properties>
+  <title>How it works</title>
+  <author email="seade@backstagetech.com.au">Scott Eade</author>
+ </properties>
+
+<body>
+
+<section name="How the Apache Turbine project works">
+
+<p>
+We have evolved into Top Level state from being a founding and long-time member
+of the Apache Jakarta Project and owe most of our rules and guidelines to the
+Jakarta project and are grateful for the guidance that we got from the Jakarta people.
+</p>
+
+<p>
+This is an evolving document and we expect it to branch away from the Jakarta
+rules in the future. For the moment, we will reference the Jakarta project
+guidelines here and apply these to the Apache Turbine Project.
+</p>
+
+<subsection name="Project Guidelines">
+
+<p>
+This document defines the guidelines of the Apache Turbine Project. It includes
+definitions of the various categories of membership, who is able to vote, how
+conflicts are resolved by voting, and the procedures to follow for proposing
+and making changes to the codebase of the Project.
+</p>
+
+<dl>
+<dt><a href="http://jakarta.apache.org/site/roles.html" class="externalLink">Roles and Responsibilities</a></dt>
+<dd> Defines the recognized roles in the project.</dd>
+<dt><a href="http://jakarta.apache.org/site/communication.html" class="externalLink">Communication</a></dt>
+<dd> Defines how users and developers communicate.</dd>
+<dt><a href="http://jakarta.apache.org/site/decisions.html" class="externalLink">Decision Making</a></dt>
+<dd> Defines how action items are proposed and voted on.</dd>
+<dt><a href="http://jakarta.apache.org/site/source.html" class="externalLink">Source Repositories</a></dt>
+<dd> Defines how the Project's source code is organized and developed.</dd>
+<dt><a href="http://jakarta.apache.org/site/management.html" class="externalLink">Project Management</a></dt>
+<dd> Defines the roles and responsibilities of the Project Management Committee (PMC).</dd>
+<dt><a href="http://jakarta.apache.org/site/newproject.html" class="externalLink">New Subproject Proposals</a></dt>
+<dd> Defines the methodology for proposing new top level Jakarta Subprojects.</dd>
+</dl>
+
+<p>
+Like its ancestor at The Jakarta Site, this is a living document. Changes can be
+made by the Project Management Committee. Suggestions for changes should be
+discussed on the Turbine general mailing list.
+</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>

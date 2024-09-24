@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+-->
+
+<document>
+
+<properties>
+  <title>Board Report August 2008</title>
+  <author email="seade@backstagetech.com.au">Scott Eade</author>
+</properties>
+
+<body>
+
+<section name="Apache Turbine Project Board Report, August 2008">
+
+<subsection name="Status">
+
+<p>The project continues on with its typical activity pattern,
+i.e. occasional bursts of development.</p>
+<p>The Turbine project has no board-level issues at this time.</p>
+
+</subsection>
+
+<subsection name="Community changes">
+
+<p>No new committers were voted in since the last board report.</p>
+<p>No new PMC members were voted in since the last board report.</p>
+
+</subsection>
+
+<subsection name="Turbine core project">
+
+<p>Subsequent to the release of Turbine 2.3.3 RC1, a long standing memory
+leak was highlighted and fixed. The 2.3.3 release is now ready to go and
+only awaits the attention of the release manager to produce the
+artefacts and call for a vote.</p>
+<p>Releases since the last board report:</p>
+<ul>
+  <li>Turbine 2.3.3 RC1</li>
+</ul>
+
+</subsection>
+
+<subsection name="Fulcrum component project">
+
+<p>Thomas Vandahl continues to port various enhancements made to Turbine
+2.3.3 to the separated fulcrum components as well as generally cleaning
+up code and adding documentation.</p>
+<p>Siegfried Goeschl continues to commit tweaks and more significant
+enhancements to a number of fulcrum components (notably the addition of
+Spring integration for the YAAFI container and the ability to run an
+embedded Jetty container as a service) and on migrating the build
+process to Maven 2.</p>
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+<subsection name="META project">
+
+<p>No beta or final releases were made since the last board report.</p>
+
+</subsection>
+
+</section>
+
+</body>
+</document>
