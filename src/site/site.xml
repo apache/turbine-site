@@ -124,10 +124,10 @@
             <topBarEnabled>false</topBarEnabled>
             <sideBarEnabled>true</sideBarEnabled>
             <googleSearch>
-                <sitesearch/>
+                <sitesearch>${project.url}</sitesearch>
             </googleSearch>
             <gitHub>
-                <projectId>apache/turbine-build</projectId>
+                <projectId>apache/${turbine.site.path}</projectId>
                 <ribbonOrientation>right</ribbonOrientation>
                 <ribbonColor>orange</ribbonColor>
             </gitHub>
