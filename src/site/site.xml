@@ -27,18 +27,12 @@
   </bannerLeft>
 
    <bannerRight href="https://turbine.apache.org/">
-       <image src="http://turbine.apache.org/images/logo.gif" />
+       <image src="https://turbine.apache.org/images/logo.gif" />
    </bannerRight>
     
     <publishDate format="dd MMMM yyyy" position="left" />
     <version position="left" />
    
-  
-  <skin>
-        <groupId>org.apache.maven.skins</groupId>
-        <artifactId>maven-fluido-skin</artifactId>
-        <version>2.0.0-M10</version>
-  </skin>
   <body>
     <head/>
   
@@ -117,21 +111,18 @@
         <item name="Developer Links"       href="/common/developer-links.html"/>
         <item name="Improving Documentation"          href="/common/documentation.html"/>
     </menu>
+    
+     <menu name="ASF">
+        <item name="Main"                     href="https://apache.org/"/>
+        <item name="License"               href="https://www.apache.org/licenses/"/>
+        <item name="Sponsorship"                     href="https://apache.org/foundation/sponsorship"/>
+        <item name="Thanks"                href="https://www.apache.org/foundation/sponsors"/>
+        <item name="Conduct"                href="https://www.apache.org/foundation/policies/conduct"/>
+        <item name="Privacy" href="https://privacy.apache.org/policies/privacy-policy-public.html"/>
+        <item name="Security"                      href="https://www.apache.org/security/"/>
+    </menu>
     <footer/>
   </body>
-  <custom>
-        <fluidoSkin>
-            <topBarEnabled>false</topBarEnabled>
-            <sideBarEnabled>true</sideBarEnabled>
-            <googleSearch>
-                <sitesearch>${project.url}</sitesearch>
-            </googleSearch>
-            <gitHub>
-                <projectId>apache/${turbine.site.path}</projectId>
-                <ribbonOrientation>right</ribbonOrientation>
-                <ribbonColor>orange</ribbonColor>
-            </gitHub>
-        </fluidoSkin>
-    </custom>
+  <!-- custom configured in parent site.xml -->
     
 </site>
