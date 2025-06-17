@@ -96,8 +96,7 @@
      </subsection>
    <subsection name="Releases">
         <ul>
-         <li><strong><a href="turbine/turbine-7-0/">Turbine 7.0</a></strong> is using Java 17, Torque 6.0. Due to moving to <a href="https://jakarta.ee/">Jakarta EE</a>namespace  backward compatibily is restricted to functions and behaviour.
-           Download it from <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-7.0/">Apache Mirrors</a>.
+         <li><strong><a href="turbine/turbine-7-0/">Turbine 7.0</a></strong> supports Jakarta Servlet 5 or above, Java 17, Torque 6.0. Due to moving to <a href="https://jakarta.ee/">Jakarta EE</a> namespace backward compatibily is restricted (e.g. requires e.g. Tomcat 10 as servlet container). Download it from <a href="https://www.apache.org/dyn/closer.cgi/turbine/turbine-7.0/">Apache Mirrors</a>.
             </li>
             
            <li><strong><a href="turbine/turbine-6-0/">Turbine 6.0</a></strong> is using Java 11, Torque 5.1 and is highly backward compatible to version 5.1. 
