@@ -34,17 +34,13 @@ the Apache Software Foundation. Any servlet container supporting Servlet
 Specification 2.4 or better can be used to run your Turbine
 application.</p>
 
-<p>We offer an easy-to use development environment using some <a href="http://maven.apache.org/">Maven</a>-Archetypes to quickly 
-start developing Turbine applications. See the 
-<a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
-in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for usage information or <a href="https://github.com/apache/turbine-archetypes/">Turbine Archetype Readme on GitHub</a>.. If you want use Docker as developing environment, checkout <a href="https://github.com/apache/turbine-archetypes/tree/docker"> docker branch</a>, which is currently in experimental stage.</p>
 
 <p>We offer an easy-to use development environment using some <a
 href="http://maven.apache.org/">Maven</a>-Archetypes to quickly 
 start developing Turbine applications. See the 
 <a href="https://blogs.apache.org/turbine/entry/maven_archetypes_for_apache_turbine">blog post</a>
 in the <a href="https://blogs.apache.org/turbine/">Turbine Blog</a> for
-usage information.</p>
+usage information or <a href="https://github.com/apache/turbine-archetypes/">Turbine Archetype Readme on GitHub</a>. If you want use Docker as developing environment, checkout <a href="https://github.com/apache/turbine-archetypes/tree/docker"> docker branch</a>, which is currently in experimental stage.</p>
 
 <p>Of course, the biggest advantage of Turbine is that it is free, and
 all of the source code is available to you, the application
