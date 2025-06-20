@@ -85,6 +85,7 @@
 </section>
 
 <section name="Turbine Versions">
+  <p><hr /></p>
   <p>
     Turbine is since version 4.0 developed in a single master (trunk)/branch.
     
@@ -144,7 +145,11 @@
     developed as part of Turbine, but now decoupled and usable in any environment
     that supports <a href="https://attic.apache.org/projects/avalon.html">Avalon</a> components. 
   </li>
+  <li>
+    <a href="/turbine-webapp-archetype/">Turbine Webapp Maven Archetype</a> provides an Archetype (template) for building an Turbine Webapp. Find more information on how to use it <a href="https://github.com/apache/turbine-archetypes/">here</a> (Readme file on GitHub). 
+  </li>
 </ul>
+<p><hr /></p>
 </section>
 
 <section name="Turbine Alumni">
@@ -176,6 +181,7 @@
 </section>
 
 <section name="The Apache Software Foundation">
+<p><hr /></p>
 <p>
 The <a href="https://www.apache.org">Apache Software Foundation</a> provides support for the 
 Apache community of open-source software projects. The Apache projects are defined by 

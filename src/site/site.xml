@@ -81,6 +81,7 @@
 
     <menu name="Turbine Sub Projects">
         <item name="Fulcrum"               href="/fulcrum/index.html"/>
+        <item name="Turbine Webapp Maven Archetype"               href="/turbine-webapp-archetype/index.html"/>
     </menu>
     
     <menu name="Turbine + Fulcrum Parent POM">
