@@ -18,16 +18,21 @@
  under the License.
 -->
 
-<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd"
-  name="Apache Turbine" combine.self="merge">  
-
-  <bannerLeft href="https://turbine.apache.org/">
-    <image src="https://turbine.apache.org/images/turbine-project.png" alt="Apache Turbine" />
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd"
+  name="Apache Turbine" combine.self="merge"> 
+ 
+   <bannerLeft>
+    <name>The Apache Turbine project</name>
+    <src>https://www.apache.org/img/feather_glyph_notm.png</src>
+    <href>https://turbine.apache.org/</href>
+    <width>50px</width>
   </bannerLeft>
-
-   <bannerRight href="https://turbine.apache.org/">
-       <image src="https://turbine.apache.org/images/logo.gif" />
+  
+    <bannerRight>
+      <href>https://turbine.apache.org/</href>
+      <src>https://turbine.apache.org/images/logo.gif</src>
+      <alt>Apache Turbine</alt>
    </bannerRight>
     
     <publishDate format="dd MMMM yyyy" position="left" />
@@ -59,9 +64,8 @@
     </menu>
     
     <menu name="Events">
-      <item name="Apache Conferences" href="https://www.apache.org/events/current-event.html" target="_blank">
-         <image src="https://www.apache.org/events/current-event-125x125.png" alt=""/>
-      </item>
+      <item name="Apache Conferences" href="https://www.apache.org/events/current-event.html" 
+      target="_blank" img="https://www.apache.org/events/current-event-125x125.png" alt=""/>
     </menu>
 
     <menu name="Turbine Releases">
@@ -121,4 +125,4 @@
   </body>
   <!-- custom configured in parent site.xml -->
     
-</site>
+</project>
